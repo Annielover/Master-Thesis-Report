@@ -1,0 +1,1651 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.6)  9 MAR 2015 16:41
+entering extended mode
+**C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/scriptie.tex
+
+(C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/boe
+kje/scriptie.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\a4wide\a4wide.sty
+Package: a4wide 1994/08/30
+
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\ntgclass\a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-english\english.ld
+f
+Language: english 2012/08/20 v3.3p English support from the babel system
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen104
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks15
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks16
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption2.sty
+Package: caption2 2013/02/03 v2.2-62 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 215.
+\captionlinewidth=\dimen122
+\realcaptionwidth=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\flafter.sty"
+Package: flafter 2000/07/23 v1.2i Standard LaTeX floats after reference (FMi)
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count103
+\lst@gtempboxa=\box30
+\lst@token=\toks24
+\lst@length=\count104
+\lst@currlwidth=\dimen124
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen127
+
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box31
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count111
+\LTcapwidth=\dimen128
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks25
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count116
+\calc@Bcount=\count117
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count118
+\calc@Cskip=\skip61
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box36
+\AM@toc@title=\toks26
+\c@AM@survey=\count119
+\AM@templatesizebox=\box37
+)
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip62
+\bibsep=\skip63
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen131
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count123
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+
+Package hyperref Warning: Option `a4paper' is no longer used.
+
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count124
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen132
+\Fld@menulength=\count125
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count126
+\c@Item=\count127
+\c@Hfootnote=\count128
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip64
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 52.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 54.
+
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.aux
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\overview.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+
+(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen135
+\scratchbox=\box38
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen136
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks28
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count137
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring ON on input line 82.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count138
+)
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.out)
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.out)
+\@outlinefile=\write3
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\title.tex
+<images/vub_logo_compact.jpg, id=149, 1683.28876pt x 532.99126pt>
+File: images/vub_logo_compact.jpg Graphic file (type jpg)
+
+<use images/vub_logo_compact.jpg>
+Package pdftex.def Info: images/vub_logo_compact.jpg used on input line 24.
+(pdftex.def)             Requested size: 269.56287pt x 85.35826pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 38.
+
+[1
+
+
+
+{C:/Users/Laurent/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/images
+/vub_logo_compact.jpg>])
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\preface.tex
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 24.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 24.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \chapter
+             {Copyright declaration} [1
+
+])
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 106.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 106.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
+
+]
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\overview.tex [3
+
+])
+<../abstract/abstract.pdf, id=173, 597.50829pt x 845.0471pt>
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+
+<use ../abstract/abstract.pdf>
+Package pdftex.def Info: ../abstract/abstract.pdf used on input line 110.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+ <use ../abstract/abstract.pdf>
+Package pdftex.def Info: ../abstract/abstract.pdf used on input line 110.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<../abstract/abstract.pdf, id=176, page=1, 597.50829pt x 845.0471pt>
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+
+<use ../abstract/abstract.pdf, page 1>
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+ <use ../abstract/abstract.pdf, page 1>
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+
+<use ../abstract/abstract.pdf, page 1>
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+ <use ../abstract/abstract.pdf, page 1>
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../abstract/abstract.pdf Graphic file (type pdf)
+
+<use ../abstract/abstract.pdf, page 1>
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [4
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/ab
+stract/abstract.pdf>]
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 34.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 34.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5
+
+])
+\tf@toc=\write4
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.lof)
+\tf@lof=\write5
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 120.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 120.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7
+
+]
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.lot)
+\tf@lot=\write6
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\abbreviations.tex
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8
+
+])
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 123.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 123.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9
+
+]
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\chapters\introduction.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 19.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 19.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
+
+
+] <images/HD_struct.png, id=304, 662.475pt x 582.67688pt>
+File: images/HD_struct.png Graphic file (type png)
+
+<use images/HD_struct.png>
+Package pdftex.def Info: images/HD_struct.png used on input line 28.
+(pdftex.def)             Requested size: 299.46599pt x 263.39355pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/
+boekje/images/HD_struct.png>]
+<images/OSI.png, id=314, 383.93437pt x 295.1025pt>
+File: images/OSI.png Graphic file (type png)
+ <use images/OSI.png>
+Package pdftex.def Info: images/OSI.png used on input line 39.
+(pdftex.def)             Requested size: 299.46599pt x 230.19252pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/OSI.png>] <images/HD.png, id=328, 514.17094pt x 353.82187pt>
+File: images/HD.png Graphic file (type png)
+
+<use images/HD.png>
+Package pdftex.def Info: images/HD.png used on input line 57.
+(pdftex.def)             Requested size: 299.46599pt x 206.07524pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/
+boekje/images/HD.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+)
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\chapters\virtualnetworks.tex
+Underfull \hbox (badness 10000) in paragraph at lines 94--1
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Chapter 2.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7
+
+] <images/BareMetal.png, id=406, 422.32782pt x 344.03531pt>
+File: images/BareMetal.png Graphic file (type png)
+
+<use images/BareMetal.png>
+Package pdftex.def Info: images/BareMetal.png used on input line 23.
+(pdftex.def)             Requested size: 253.39807pt x 206.42802pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/
+boekje/images/BareMetal.png>]
+<images/HyperVArch.jpg, id=433, 331.2375pt x 356.83313pt>
+File: images/HyperVArch.jpg Graphic file (type jpg)
+
+<use images/HyperVArch.jpg>
+Package pdftex.def Info: images/HyperVArch.jpg used on input line 42.
+(pdftex.def)             Requested size: 253.39807pt x 272.97644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperVArch.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+<images/Xen_Arch_Diagram.png, id=460, 646.66594pt x 477.28313pt>
+File: images/Xen_Arch_Diagram.png Graphic file (type png)
+
+<use images/Xen_Arch_Diagram.png>
+Package pdftex.def Info: images/Xen_Arch_Diagram.png used on input line 65.
+(pdftex.def)             Requested size: 207.32315pt x 153.01775pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--68
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Xen_Arch_Diagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+<images/VMware1.png, id=474, 694.84593pt x 254.45062pt>
+File: images/VMware1.png Graphic file (type png)
+
+<use images/VMware1.png>
+Package pdftex.def Info: images/VMware1.png used on input line 89.
+(pdftex.def)             Requested size: 299.46599pt x 109.66011pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/VMware1.png>]
+<images/VMware2.jpg, id=482, 552.0625pt x 381.425pt>
+File: images/VMware2.jpg Graphic file (type jpg)
+ <use images/VMware2.jpg>
+Package pdftex.def Info: images/VMware2.jpg used on input line 95.
+(pdftex.def)             Requested size: 253.39807pt x 175.07932pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/VMware2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+<images/ExternalNetwork.png, id=502, 681.747pt x 508.7808pt>
+File: images/ExternalNetwork.png Graphic file (type png)
+
+<use images/ExternalNetwork.png>
+Package pdftex.def Info: images/ExternalNetwork.png used on input line 130.
+(pdftex.def)             Requested size: 299.46599pt x 223.4916pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/ExternalNetwork_2.png, id=503, 347.04657pt x 354.57469pt>
+File: images/ExternalNetwork_2.png Graphic file (type png)
+
+<use images/ExternalNetwork_2.png>
+Package pdftex.def Info: images/ExternalNetwork_2.png used on input line 142.
+(pdftex.def)             Requested size: 299.46599pt x 305.97249pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15] <images/InternalNetwork.png, id=525, 347.04657pt x 316.18124pt>
+File: images/InternalNetwork.png Graphic file (type png)
+
+<use images/InternalNetwork.png>
+Package pdftex.def Info: images/InternalNetwork.png used on input line 163.
+(pdftex.def)             Requested size: 299.46599pt x 272.84169pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/ExternalNetwork.png>]
+<images/PrivateNetwork.png, id=535, 344.03531pt x 197.23688pt>
+File: images/PrivateNetwork.png Graphic file (type png)
+
+<use images/PrivateNetwork.png>
+Package pdftex.def Info: images/PrivateNetwork.png used on input line 177.
+(pdftex.def)             Requested size: 299.46599pt x 171.68497pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/ExternalNetwork_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/InternalNetwork.png> <C:/Users/Laurent/Dropbox/School/Master/The
+sis/Report/scriptiePeterDedecker/boekje/images/PrivateNetwork.png>]
+<images/LVM.png, id=549, 833.36343pt x 499.8675pt>
+File: images/LVM.png Graphic file (type png)
+ <use images/LVM.png>
+Package pdftex.def Info: images/LVM.png used on input line 199.
+(pdftex.def)             Requested size: 391.61586pt x 234.89961pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/LVM.png>])
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\chapters\security.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 15.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 15.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21
+
+] <images/VMBR.png, id=603, 550.30594pt x 310.15875pt>
+File: images/VMBR.png Graphic file (type png)
+
+<use images/VMBR.png>
+Package pdftex.def Info: images/VMBR.png used on input line 23.
+(pdftex.def)             Requested size: 322.50345pt x 181.77106pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/VMBR.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23
+
+])
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\chapters\conclusions.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+Chapter 4.
+)
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\appendices\appendix.tex
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25
+
+]
+Appendix A.
+)
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.bbl
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26
+
+]
+Underfull \hbox (badness 1122) in paragraph at lines 11--16
+[]\OT1/cmr/m/n/12 Avis, C. E. (2013).  Vmware or mi-crosoft: Pro-tect-ing vm's 
+- agents or agent-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+[]\OT1/cmr/m/n/12 Beal, V. (2015).  The 7 lay-ers of the osi model.
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 18--22
+\OT1/cmr/m/it/12 http://www.webopedia.com/quick[]ref/OSI[]Layers.asp\OT1/cmr/m/
+n/12 .  Re-trieved on Febru-ary 24,
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 30--35
+[]\OT1/cmr/m/n/12 Bigelow, S. J. (2009).  Un-der-stand-ing the be-f-e-fits of a
+ vir-tual ma-chine.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+\OT1/cmr/m/it/12 http://searchservervirtualization.techtarget.com/tip/Understan
+ding-the-benefits-of-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+[]\OT1/cmr/m/n/12 Briscoe, N. (2008).  Un-der-stand-ing the osi 7-layer model.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+\OT1/cmr/m/it/12 http://memberfiles.freewebs.com/61/55/58745561/documents/OSI.p
+df\OT1/cmr/m/n/12 .  Re-trieved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+\OT1/cmr/m/it/12 us/articles/intel-virtualization-technology-for-directed-io-vt
+-d-enhancing-intel-platforms-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+[]\OT1/cmr/m/n/12 Grehl, F. (2015).  Vmware esxi re-lease and build num-ber his
+-tory.
+ []
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 64.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 64.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27
+
+]
+Overfull \hbox (52.36897pt too wide) in paragraph at lines 66--71
+[]\OT1/cmr/m/n/12 House, M. (2006).  Hy-per-vi-sor.  \OT1/cmr/m/it/12 http://se
+archservervirtualization.techtarget.com/definition/hypervisor\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
+[]\OT1/cmr/m/n/12 Intel (2015).  In-tel vir-tu-al-iza-tion tech-nol-ogy (in-tel
+ vt).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
+\OT1/cmr/m/it/12 http://www.intel.com/content/www/us/en/virtualization/virtuali
+zation-
+ []
+
+
+Overfull \hbox (22.62843pt too wide) in paragraph at lines 87--91
+[]\OT1/cmr/m/n/12 Jackson, I. (2012).  Xen net-work-ing.  \OT1/cmr/m/it/12 http
+://wiki.xenproject.org/wiki/Xen[]Networking#Bridging\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 93--98
+[]\OT1/cmr/m/n/12 Jeong, S. (2013).  In-depth overview of x86 server vir-tu-al-
+iza-tion tech-nol-ogy.
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 93--98
+\OT1/cmr/m/it/12 http://www.cubrid.org/blog/dev-platform/x86-server-virtualizat
+ion-technology/\OT1/cmr/m/n/12 .  Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+[]\OT1/cmr/m/n/12 Kassner, M. (2008).  10+ things you should know about rootk-i
+ts.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+\OT1/cmr/m/it/12 http://www.techrepublic.com/blog/10-things/10-plus-things-you-
+should-know-about-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
+[]\OT1/cmr/m/n/12 Kennedy, P. (2011).  Hyper-v net-work-ing and vir-tual switch
+es overview.
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 122--127
+[]\OT1/cmr/m/n/12 Kleyman, B. (2012).  Hy-per-vi-sor 101: Un-der-stand-ing the 
+vir-tu-al-iza-tion mar-
+ []
+
+
+Overfull \hbox (60.39539pt too wide) in paragraph at lines 129--134
+[]\OT1/cmr/m/n/12 Kurth, L. (2012).  Choice of tool-stacks.  \OT1/cmr/m/it/12 h
+ttp://wiki.xen.org/wiki/Choice[]of[]Toolstacks#Default[].2F[]XL\OT1/cmr/m/n/12 
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+[]\OT1/cmr/m/n/12 Marcin (2011).  How se-cure are vir-tual ma-chines re-ally?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+\OT1/cmr/m/it/12 http://security.stackexchange.com/questions/3056/how-secure-ar
+e-virtual-machines-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+[]\OT1/cmr/m/n/12 Microsoft (2010).  Overview of hyper-v.  \OT1/cmr/m/it/12 htt
+ps://technet.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 150--155
+[]\OT1/cmr/m/n/12 Microsoft (2015a).  Ad-van-tages of hyper-v.  \OT1/cmr/m/it/1
+2 https://msdn.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--169
+[]\OT1/cmr/m/n/12 MSDN, M. (2012).  Vir-tual disk.  \OT1/cmr/m/it/12 https://ms
+dn.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 164--169
+\OT1/cmr/m/it/12 us/library/windows/desktop/dd323684%28v=vs.85%29.aspx\OT1/cmr/
+m/n/12 .  Re-trieved on March
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--176
+[]\OT1/cmr/m/n/12 MSDN, M. (2015).  Hyper-v ar-chi-tec-ture.  \OT1/cmr/m/it/12 
+https://msdn.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 183--188
+[]\OT1/cmr/m/n/12 Ott, D. (2009).  Un-der-stand-ing vt-d: In-tel vir-tu-al-iza-
+tion tech-nol-ogy for di-
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 183--188
+\OT1/cmr/m/n/12 rected i/o.  \OT1/cmr/m/it/12 https://software.intel.com/en-us/
+blogs/2009/06/25/understanding-vt-d-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\OT1/cmr/m/it/12 http://blogs.technet.com/b/kevinremde/archive/2012/10/20/31-da
+ys-of-our-favorite-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\OT1/cmr/m/it/12 things-extend-your-hyper-v-virtual-switch-in-windows-server-20
+12-part-20-of-31.aspx\OT1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (55.62598pt too wide) in paragraph at lines 208--213
+[]\OT1/cmr/m/n/12 Rutkowska, J. (2006).  In-tro-duc-ing blue pill.  \OT1/cmr/m/
+it/12 http://theinvisiblethings.blogspot.be/2006/06/introducing-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
+[]\OT1/cmr/m/n/12 Shinder, D. (2008).  10 things you should know about hyper-v.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
+\OT1/cmr/m/it/12 http://www.techrepublic.com/blog/10-things/10-things-you-shoul
+d-know-about-hyper-v/\OT1/cmr/m/n/12 .
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
+[]\OT1/cmr/m/n/12 Smith, J. E. and Nair, R. (2008).  The ar-chi-tec-ture of vir
+-tual ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
+\OT1/cmr/m/n/12 chines.  \OT1/cmr/m/it/12 http://www.ittc.ku.edu/$\OMS/cmsy/m/n
+/12 $\OT1/cmr/m/it/12 kulkarni/teaching/archieve/EECS800-Spring-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--247
+[]\OT1/cmr/m/n/12 Smyth, N. (2009).  An overview of the hyper-v ar-chi-tec-ture
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--247
+\OT1/cmr/m/it/12 http://www.virtuatopia.com/index.php/An[]Overview[]of[]the[]Hy
+per-V[]Architecture\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 262--266
+[]\OT1/cmr/m/n/12 Technet, M. (2015a).  Con-fig-ure net-work-ing.  \OT1/cmr/m/i
+t/12 https://technet.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
+[]\OT1/cmr/m/n/12 Vangie, B. (2007).  Un-der-stand-ing hardware-assisted vir-tu
+-al-iza-tion.
+ []
+
+
+Overfull \hbox (50.46265pt too wide) in paragraph at lines 288--293
+\OT1/cmr/m/it/12 http://www.webopedia.com/DidYouKnow/Computer[]Science/hardware
+[]assisted[]virtualization.asp\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+[]\OT1/cmr/m/n/12 Vanover, R. (2013).  In-tro-duc-tion to vir-tu-al-iza-tion, a
+b-strac-tion is key.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+\OT1/cmr/m/it/12 http://www.techrepublic.com/blog/data-center/introduction-to-v
+irtualization-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Overfull \hbox (43.88818pt too wide) in paragraph at lines 309--314
+[]\OT1/cmr/m/n/12 VMware (2015b).  Vir-tu-al-iza-tion ad-van-tages.  \OT1/cmr/m
+/it/12 http://www.vmware.com/virtualization/virtualization-
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 316--321
+[]\OT1/cmr/m/n/12 Vogel, D. (2014).  The ben-e-fits and chal-lenges of vir-tual
+ ma-chine host-
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 316--321
+\OT1/cmr/m/n/12 ing.  \OT1/cmr/m/it/12 http://www.datapipe.com/blog/2014/04/23/
+benefits-challenges-virtual-machine-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
+[]\OT1/cmr/m/n/12 Wang, Z. J. (2009).  How to re-cover vir-tu-al-ized x86 in-st
+ruc-tions.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
+\OT1/cmr/m/it/12 https://www.virusbtn.com/conference/vb2009/abstracts/Wang.xml\
+OT1/cmr/m/n/12 .  Re-trieved on
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.aux
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\overview.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package rerunfilecheck Info: File `scriptie.out' has not changed.
+(rerunfilecheck)             Checksum: 4FA8D773CE1CFA49E3A2645C8A8CBE70;2564.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+ ) 
+Here is how much of TeX's memory you used:
+ 11225 strings out of 493921
+ 164741 string characters out of 3147277
+ 246858 words of memory out of 3000000
+ 14127 multiletter control sequences out of 15000+200000
+ 15726 words of font info for 58 fonts, out of 3000000 for 9000
+ 846 hyphenation exceptions out of 8191
+ 39i,18n,51p,1092b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Laurent\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+si12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on scriptie.pdf (41 pages, 1108045 bytes).
+PDF statistics:
+ 758 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+

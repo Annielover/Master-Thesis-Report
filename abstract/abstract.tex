@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%  phdsymp_sample2e.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% changes for phdsymp.cls marked with !PN
+%% except all occ. of phdsymp.sty changed phdsymp.cls
+%%%%%%%%%%                                                       %%%%%%%%%%%%%
+%%%%%%%%%%    More information: see the header of phdsymp.cls   %%%%%%%%%%%%%
+%%%%%%%%%%                                                       %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\documentclass[10pt]{phdsymp} %!PN
+\documentclass[twocolumn]{phdsymp} %!PN
+%\documentclass[12pt,draft]{phdsymp} %!PN
+%\documentstyle[twocolumn]{phdsymp}
+%\documentstyle[12pt,twoside,draft]{phdsymp}
+%\documentstyle[9pt,twocolumn,technote,twoside]{phdsymp}
+
+\usepackage[english]{babel}       
+
+\usepackage{graphicx}                   % Om figuren te kunnen verwerken
+\usepackage{graphics}			% Om figuren te verwerken.
+\graphicspath{{figuren/}}               % De plaats waar latex zijn figuren gaat halen.
+
+\usepackage{times}
+
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+
+\title{Security aspects in virtual networks}
+
+\author{Laurent De Wilde}
+
+\supervisor{Prof. dr. ir. Martin Timmerman}
+
+\maketitle
+
+\begin{abstract}
+Here comes a short abstract
+\end{abstract}
+
+\begin{keywords}
+Security, virtual machines, virtual networks, Hyper-V, Windows, virtualization.
+\end{keywords}
+
+\section{Introduction}
+\PARstart{H}{ere} comes the extended abstract.
+
+
+\section{Virtual networks}
+
+Some text \ldots .
+
+
+\section{Conclusion}
+
+
+\nocite{*}
+\bibliographystyle{phdsymp}
+
+\begin{thebibliography}{1}
+\bibitem{paper}
+Andrew Stuart Tanenbaum and Todd Austin
+\newblock {\em Structured Computer Organization},
+\newblock vol. 6, pp. 2-7, New Jersey, U.S.A., 2013
+
+
+\end{thebibliography}
+
+
+\end{document}

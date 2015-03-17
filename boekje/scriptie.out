@@ -1,0 +1,37 @@
+\BOOKMARK [0][-]{chapter*.1}{Preface}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Copyright declaration}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{Overview}{}% 3
+\BOOKMARK [0][-]{section*.4}{Extended abstract}{}% 4
+\BOOKMARK [0][-]{section*.4}{Contents}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{List of Figures}{}% 6
+\BOOKMARK [0][-]{chapter*.7}{List of Tables}{}% 7
+\BOOKMARK [0][-]{chapter*.8}{List of Abbreviations}{}% 8
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 9
+\BOOKMARK [1][-]{section.1.1}{Virtualization}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.1}{Abstractions}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.2}{Abstraction and virtual machines}{section.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{Why use virtualization}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.2.1}{Benefits of using machine virtualization}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{Challenges and disadvantages of using machine virtualization}{section.1.2}% 15
+\BOOKMARK [1][-]{section.1.3}{Security issues regarding virtualization}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{Virtualization}{}% 17
+\BOOKMARK [1][-]{section.2.1}{Machine virtualization - Hypervisors}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.1.1}{Bare-metal hypervisors}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.2}{Hosted hypervisors}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{Network virtualization}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{External virtual network}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{Internal virtual network}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{Private virtual network}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{External network virtualization}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Storage virtualization}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Host-based storage virtualization}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Virtual hard disks in Hyper-V}{section.2.3}% 28
+\BOOKMARK [0][-]{chapter.3}{Security}{}% 29
+\BOOKMARK [1][-]{section.3.1}{Known non-network related security issues}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.1.1}{Virusses and malware problems}{section.3.1}% 31
+\BOOKMARK [1][-]{section.3.2}{Known network related security issues}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.3}{Possible solutions}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.4}{Unknown security issues}{chapter.3}% 34
+\BOOKMARK [0][-]{chapter.4}{Conclusions and recommendations}{}% 35
+\BOOKMARK [0][-]{appendix.A}{Test lab}{}% 36
+\BOOKMARK [0][-]{appendix*.22}{Bibliography}{}% 37

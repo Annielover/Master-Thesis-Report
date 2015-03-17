@@ -1,0 +1,148 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage{a4wide}                     % Iets meer tekst op een bladzijde
+\usepackage[USenglish]{babel}       % Voor nederlandstalige hyphenatie (woordsplitsing)
+\usepackage{amsmath}                    % Uitgebreide wiskundige mogelijkheden
+\usepackage{amssymb}                    % Voor speciale symbolen zoals de verzameling Z, R...
+\usepackage{url}                        % Om url's te verwerken
+\usepackage{graphicx}                   % Om figuren te kunnen verwerken
+\usepackage[small,bf,hang]{caption2}    % Om de captions wat te verbeteren
+\usepackage{xspace}                     % Magische spaties na een commando
+\usepackage[latin1]{inputenc}           % Om niet ascii karakters rechtstreeks te kunnen typen
+\usepackage{float}                      % Om nieuwe float environments aan te maken. Ook optie H!
+\usepackage{flafter}                    % Opdat floats niet zouden voorsteken
+\usepackage{listings}                   % Voor het weergeven van letterlijke text en codelistings
+\usepackage{marvosym}                   % Om het euro symbool te krijgen
+\usepackage{textcomp}                   % Voor onder andere graden celsius
+\usepackage{fancyhdr}                   % Voor fancy headers en footers.
+\usepackage{graphics}			% Om figuren te verwerken.
+\usepackage[nottoc]{tocbibind} % Bibliografie in ToC; zie tocbibind.dvi
+%\usepackage{pstricks}
+\usepackage{longtable}
+\usepackage{pdfpages}  % pdf pagina's importeren
+
+\usepackage[square]{natbib}
+
+
+
+\newcommand{\npar}{\par \vspace{2.3ex plus 0.3ex minus 0.3ex} \noindent}	% Om witruimte te krijgen tussen paragrafen
+\graphicspath{{images/}}               % De plaats waar latex zijn figuren gaat halen.
+\usepackage[bf]{caption2}	% Mooiere captions
+\usepackage[a4paper,plainpages=false]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}    % Om hyperlinks te hebben in het pdfdocument.
+\newcommand{\command}[1]{\lstinline[basicstyle=\tt]{#1}\xspace} %Voor commando's
+\hyphenation{he-den-daag-se ap-pa-ra-tuur Meet-re-sul-ta-ten hand-o-ver-tijd ho-ge-snel-heids-trein}
+
+% Het bibliografisch opmaak bestand.
+%\bibliographystyle{bibliodutch}
+%\bibpunct{[}{]}{,}{n}{,}{,}
+
+\renewcommand{\chaptermark}[1]{\markright{\MakeUppercase{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection~#1}}
+
+\newcommand{\headerfmt}[1]{\textsl{\textsf{#1}}}
+\newcommand{\headerfmtpage}[1]{\textsf{#1}}
+
+\fancyhf{}
+\fancyhead[LE,RO]{\headerfmtpage{\thepage}}
+\fancyhead[LO]{\headerfmt{\rightmark}}
+\fancyhead[RE]{\headerfmt{\leftmark}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{ % eerste bladzijde van een hoofdstuk
+  \fancyhf{}
+  \fancyhead[LE,RO]{\headerfmtpage{\thepage}}
+  \fancyhead[LO]{\headerfmt{\rightmark}}
+  \fancyhead[RE]{\headerfmt{\leftmark}}
+  \renewcommand{\headrulewidth}{0.5pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\renewcommand{\lstlistoflistings}{\begingroup
+   \tocfile{\lstlistlistingname}{lol}
+\endgroup}
+
+
+% anderhalve interlinie (opm: titelblad gaat uit van 1.5)
+\renewcommand{\baselinestretch}{1.5}
+
+
+\hypersetup{
+    pdfauthor = {Peter Dedecker},
+    pdftitle = {Breedbandtoegangsnetwerk voor treinen door middel van Radio-over-Fiber},
+    pdfsubject = {Scriptie voorgelegd tot het behalen van de graad van Burgerlijk Ingenieur in de Computerwetenschappen: Informatie- en Communicatietechnologie, juni 2006}
+}
+
+\begin{document}
+\nocite{*}
+\renewcommand\lstlistlistingname{Lijst van codefragmenten}
+\renewcommand\lstlistingname{Codefragment}
+
+
+\frontmatter
+%\input{s-titel}
+
+% lege pagina (!!)
+%\newpage
+%\vfil\null
+%\newpage
+
+% titelblad (!!)
+\input{title}
+
+% geen paginanummering tot we aan de inhoudsopgave komen
+\pagestyle{empty}
+
+% voorwoord met dankwoord en toelating tot bruikleen (ondertekend)
+\input{preface}
+
+% overzicht
+\include{overview}
+
+% abstract
+\addcontentsline{toc}{chapter}{Extended abstract}
+\includepdf[pages=-]{../abstract/abstract.pdf}
+
+\pagestyle{fancy}
+\renewcommand{\baselinestretch}{1.08} 	% De interlinie afstand wat verkleinen.
+\small\normalsize                       % Nodig om de baselinestretch goed te krijgen.
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
+\renewcommand{\baselinestretch}{1.2} 	% De interlinie afstand wat vergroten.
+\small\normalsize
+\listoffigures
+\listoftables                       % Nodig om de baselinestretch goed te krijgen.
+\input{abbreviations}
+
+\mainmatter
+\input{./chapters/introduction}
+\input{./chapters/virtualnetworks}
+\input{./chapters/security}
+\input{./chapters/conclusions}
+
+
+\appendix
+%\input{s-sourcecode}
+\input{./appendices/appendix}
+
+% De bibliografie en de index
+\bibliographystyle{apalike}
+\bibliography{scriptie}
+
+\backmatter
+%\addcontentsline{toc}{chapter}{Lijst van codefragmenten}
+%\lstlistoflistings
+
+% lege pagina (!!)
+
+% kaft
+
+
+
+\end{document}

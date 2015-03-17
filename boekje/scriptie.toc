@@ -1,0 +1,51 @@
+\select@language {USenglish}
+\contentsline {chapter}{Preface}{i}{chapter*.1}
+\contentsline {chapter}{Copyright declaration}{ii}{chapter*.2}
+\contentsline {chapter}{Overview}{iii}{chapter*.2}
+\contentsline {chapter}{Extended abstract}{iv}{section*.4}
+\contentsline {chapter}{Contents}{v}{section*.4}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.6}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.7}
+\contentsline {chapter}{List of Abbreviations}{ix}{chapter*.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Virtualization}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Abstractions}{1}{subsection.1.1.1}
+\contentsline {paragraph}{First example}{1}{section*.9}
+\contentsline {paragraph}{Second example}{2}{section*.10}
+\contentsline {subsection}{\numberline {1.1.2}Abstraction and virtual machines}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Why use virtualization}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Benefits of using machine virtualization}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Challenges and disadvantages of using machine virtualization}{5}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Security issues regarding virtualization}{6}{section.1.3}
+\contentsline {chapter}{\numberline {2}Virtualization}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Machine virtualization - Hypervisors}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Bare-metal hypervisors}{8}{subsection.2.1.1}
+\contentsline {subsubsection}{Hyper-V}{8}{section*.11}
+\contentsline {paragraph}{Architecture of Hyper-V}{9}{section*.12}
+\contentsline {subsubsection}{Xen}{11}{section*.13}
+\contentsline {paragraph}{Architecture of the Xen Project hypervisor}{11}{section*.14}
+\contentsline {subsubsection}{VMware ESXi}{13}{section*.15}
+\contentsline {paragraph}{Architecture of the ESXi hypervisor}{13}{section*.16}
+\contentsline {subsection}{\numberline {2.1.2}Hosted hypervisors}{14}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Network virtualization}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}External virtual network}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Internal virtual network}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Private virtual network}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}External network virtualization}{17}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Storage virtualization}{19}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Host-based storage virtualization}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Virtual hard disks in Hyper-V}{20}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Security}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Known non-network related security issues}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Virusses and malware problems}{21}{subsection.3.1.1}
+\contentsline {paragraph}{I/O MMU Virtualization and DMA}{21}{section*.17}
+\contentsline {paragraph}{x86 Virtualization and rootkits}{22}{section*.18}
+\contentsline {section}{\numberline {3.2}Known network related security issues}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Possible solutions}{23}{section.3.3}
+\contentsline {subsubsection}{Use of firewalls}{23}{section*.19}
+\contentsline {subsubsection}{Securing the guests}{23}{section*.20}
+\contentsline {subsubsection}{Antimalware solution}{24}{section*.21}
+\contentsline {section}{\numberline {3.4}Unknown security issues}{24}{section.3.4}
+\contentsline {chapter}{\numberline {4}Conclusions and recommendations}{25}{chapter.4}
+\contentsline {chapter}{\numberline {A}Test lab}{26}{appendix.A}
+\contentsline {chapter}{Bibliography}{27}{appendix*.22}
