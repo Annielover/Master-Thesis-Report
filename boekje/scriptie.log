@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.6)  9 MAR 2015 16:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.10)  14 MAY 2015 19:39
 entering extended mode
 **C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
 ekje/scriptie.tex
@@ -49,10 +49,10 @@ Package: babel 2008/07/08 v3.8m The Babel package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-english\english.ld
-f
-Language: english 2012/08/20 v3.3p English support from the babel system
- ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -362,7 +362,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LT@p@ftn=\toks25
 )
 (C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
-Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+Package: pdfpages 2015/04/15 v0.4w Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -408,7 +408,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
 (C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
-File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2015/04/15 v0.4w Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box36
 \AM@toc@title=\toks26
@@ -535,41 +535,102 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip64
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 52.
+less on input line 56.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 54.
+less on input line 58.
 
 
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\scriptie.aux
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
-kje\overview.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
+kje\overview.aux)
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+
+LaTeX Warning: Label `fig:network' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 (C:\Users\Laurent\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -589,7 +650,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count137
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 86.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -598,9 +659,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\scriptie.out)
@@ -610,7 +671,7 @@ kje\scriptie.out)
 
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\title.tex
-<images/vub_logo_compact.jpg, id=149, 1683.28876pt x 532.99126pt>
+<images/vub_logo_compact.jpg, id=249, 1683.28876pt x 532.99126pt>
 File: images/vub_logo_compact.jpg Graphic file (type jpg)
 
 <use images/vub_logo_compact.jpg>
@@ -654,11 +715,11 @@ l.24 \chapter
 ])
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 106.
+less on input line 110.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 106.
+less on input line 110.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -673,44 +734,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 kje\overview.tex [3
 
 ])
-<../abstract/abstract.pdf, id=173, 597.50829pt x 845.0471pt>
+<../abstract/abstract.pdf, id=273, 597.50829pt x 845.0471pt>
 File: ../abstract/abstract.pdf Graphic file (type pdf)
 
 <use ../abstract/abstract.pdf>
-Package pdftex.def Info: ../abstract/abstract.pdf used on input line 110.
+Package pdftex.def Info: ../abstract/abstract.pdf used on input line 114.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ../abstract/abstract.pdf Graphic file (type pdf)
  <use ../abstract/abstract.pdf>
-Package pdftex.def Info: ../abstract/abstract.pdf used on input line 110.
+Package pdftex.def Info: ../abstract/abstract.pdf used on input line 114.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<../abstract/abstract.pdf, id=176, page=1, 597.50829pt x 845.0471pt>
+<../abstract/abstract.pdf, id=276, page=1, 597.50829pt x 845.0471pt>
 File: ../abstract/abstract.pdf Graphic file (type pdf)
 
 <use ../abstract/abstract.pdf, page 1>
-Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 114
 .
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ../abstract/abstract.pdf Graphic file (type pdf)
  <use ../abstract/abstract.pdf, page 1>
-Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 114
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ../abstract/abstract.pdf Graphic file (type pdf)
 
 <use ../abstract/abstract.pdf, page 1>
-Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 114
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ../abstract/abstract.pdf Graphic file (type pdf)
  <use ../abstract/abstract.pdf, page 1>
-Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 114
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ../abstract/abstract.pdf Graphic file (type pdf)
 
 <use ../abstract/abstract.pdf, page 1>
-Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 110
+Package pdftex.def Info: ../abstract/abstract.pdf, page1 used on input line 114
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [4
@@ -744,7 +805,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5
 
-])
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
 \tf@toc=\write4
 
 
@@ -753,18 +821,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[7]
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
-kje\scriptie.lof)
-\tf@lof=\write5
+kje\scriptie.lof
+Overfull \hbox (32.14806pt too wide) in paragraph at lines 26--26
+ [][] [][][]\OT1/cmr/m/n/12 ICMP Ping traf-fic from \OT1/cmtt/m/n/12 Server 1 \
+OT1/cmr/m/n/12 (192.168.1.51) to the Hyper-V host (192.168.1.6). 
+ []
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 120.
+less on input line 28.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 120.
+less on input line 28.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -772,9 +843,72 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7
+[8
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+Overfull \hbox (9.83669pt too wide) in paragraph at lines 72--72
+ [][] [][][]\OT1/cmr/m/n/12 An ex-am-ple of \OT1/cmtt/m/n/12 hosts.deny\OT1/cmr
+/m/n/12 . This file is used in com-bi-na-tion with \OT1/cmtt/m/n/12 hosts.allow
+ 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Overfull \hbox (15.22794pt too wide) in paragraph at lines 168--168
+ [][] [][][]\OT1/cmr/m/n/12 Configuration of the \OT1/cmtt/m/n/12 Provider \OT1
+/cmr/m/n/12 vir-tual di-rec-tory of IIS. Choose the \OT1/cmtt/m/n/12 SPFProvide
+r 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14])
+\tf@lof=\write5
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\scriptie.lot)
 \tf@lot=\write6
@@ -795,16 +929,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8
+[16
 
 ])
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 123.
+less on input line 127.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 123.
+less on input line 127.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -812,7 +946,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9
+[17
 
 ]
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
@@ -840,7 +974,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 
-] <images/HD_struct.png, id=304, 662.475pt x 582.67688pt>
+] <images/HD_struct.png, id=878, 662.475pt x 582.67688pt>
 File: images/HD_struct.png Graphic file (type png)
 
 <use images/HD_struct.png>
@@ -855,7 +989,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/
 boekje/images/HD_struct.png>]
-<images/OSI.png, id=314, 383.93437pt x 295.1025pt>
+<images/OSI.png, id=888, 383.93437pt x 295.1025pt>
 File: images/OSI.png Graphic file (type png)
  <use images/OSI.png>
 Package pdftex.def Info: images/OSI.png used on input line 39.
@@ -870,7 +1004,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
  <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
-ekje/images/OSI.png>] <images/HD.png, id=328, 514.17094pt x 353.82187pt>
+ekje/images/OSI.png>] <images/HD.png, id=901, 514.17094pt x 353.82187pt>
 File: images/HD.png Graphic file (type png)
 
 <use images/HD.png>
@@ -927,7 +1061,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7
 
-] <images/BareMetal.png, id=406, 422.32782pt x 344.03531pt>
+] <images/BareMetal.png, id=980, 422.32782pt x 344.03531pt>
 File: images/BareMetal.png Graphic file (type png)
 
 <use images/BareMetal.png>
@@ -942,7 +1076,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/
 boekje/images/BareMetal.png>]
-<images/HyperVArch.jpg, id=433, 331.2375pt x 356.83313pt>
+<images/HyperVArch.jpg, id=1007, 331.2375pt x 356.83313pt>
 File: images/HyperVArch.jpg Graphic file (type jpg)
 
 <use images/HyperVArch.jpg>
@@ -980,7 +1114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-<images/Xen_Arch_Diagram.png, id=460, 646.66594pt x 477.28313pt>
+<images/Xen_Arch_Diagram.png, id=1033, 646.66594pt x 477.28313pt>
 File: images/Xen_Arch_Diagram.png Graphic file (type png)
 
 <use images/Xen_Arch_Diagram.png>
@@ -1020,7 +1154,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-<images/VMware1.png, id=474, 694.84593pt x 254.45062pt>
+<images/VMware1.png, id=1047, 694.84593pt x 254.45062pt>
 File: images/VMware1.png Graphic file (type png)
 
 <use images/VMware1.png>
@@ -1037,7 +1171,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
 ekje/images/VMware1.png>]
-<images/VMware2.jpg, id=482, 552.0625pt x 381.425pt>
+<images/VMware2.jpg, id=1056, 552.0625pt x 381.425pt>
 File: images/VMware2.jpg Graphic file (type jpg)
  <use images/VMware2.jpg>
 Package pdftex.def Info: images/VMware2.jpg used on input line 95.
@@ -1071,7 +1205,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-<images/ExternalNetwork.png, id=502, 681.747pt x 508.7808pt>
+<images/ExternalNetwork.png, id=1076, 681.747pt x 508.7808pt>
 File: images/ExternalNetwork.png Graphic file (type png)
 
 <use images/ExternalNetwork.png>
@@ -1081,7 +1215,7 @@ Package pdftex.def Info: images/ExternalNetwork.png used on input line 130.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ExternalNetwork_2.png, id=503, 347.04657pt x 354.57469pt>
+<images/ExternalNetwork_2.png, id=1077, 347.04657pt x 354.57469pt>
 File: images/ExternalNetwork_2.png Graphic file (type png)
 
 <use images/ExternalNetwork_2.png>
@@ -1097,7 +1231,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] <images/InternalNetwork.png, id=525, 347.04657pt x 316.18124pt>
+[15] <images/InternalNetwork.png, id=1098, 347.04657pt x 316.18124pt>
 File: images/InternalNetwork.png Graphic file (type png)
 
 <use images/InternalNetwork.png>
@@ -1115,7 +1249,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
 /boekje/images/ExternalNetwork.png>]
-<images/PrivateNetwork.png, id=535, 344.03531pt x 197.23688pt>
+<images/PrivateNetwork.png, id=1108, 344.03531pt x 197.23688pt>
 File: images/PrivateNetwork.png Graphic file (type png)
 
 <use images/PrivateNetwork.png>
@@ -1142,7 +1276,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [18 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
 /boekje/images/InternalNetwork.png> <C:/Users/Laurent/Dropbox/School/Master/The
 sis/Report/scriptiePeterDedecker/boekje/images/PrivateNetwork.png>]
-<images/LVM.png, id=549, 833.36343pt x 499.8675pt>
+<images/LVM.png, id=1122, 833.36343pt x 499.8675pt>
 File: images/LVM.png Graphic file (type png)
  <use images/LVM.png>
 Package pdftex.def Info: images/LVM.png used on input line 199.
@@ -1194,7 +1328,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21
 
-] <images/VMBR.png, id=603, 550.30594pt x 310.15875pt>
+] <images/VMBR.png, id=1176, 550.30594pt x 310.15875pt>
 File: images/VMBR.png Graphic file (type png)
 
 <use images/VMBR.png>
@@ -1223,7 +1357,4297 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23
 
-])
+]
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24] <images/Network_10.png, id=1220, 1174.3875pt x 569.87906pt>
+File: images/Network_10.png Graphic file (type png)
+
+<use images/Network_10.png>
+Package pdftex.def Info: images/Network_10.png used on input line 80.
+(pdftex.def)             Requested size: 460.72124pt x 223.56497pt.
+
+<images/HyperV_13.png, id=1221, 660.96938pt x 150.5625pt>
+File: images/HyperV_13.png Graphic file (type png)
+
+<use images/HyperV_13.png>
+Package pdftex.def Info: images/HyperV_13.png used on input line 91.
+(pdftex.def)             Requested size: 460.72124pt x 104.95192pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--95
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Network_10.png>]
+<images/HyperV_6.png, id=1228, 880.03781pt x 712.16063pt>
+File: images/HyperV_6.png Graphic file (type png)
+
+<use images/HyperV_6.png>
+Package pdftex.def Info: images/HyperV_6.png used on input line 100.
+(pdftex.def)             Requested size: 460.72124pt x 372.825pt.
+
+<images/HyperV_8.png, id=1229, 878.53218pt x 709.90219pt>
+File: images/HyperV_8.png Graphic file (type png)
+
+<use images/HyperV_8.png>
+Package pdftex.def Info: images/HyperV_8.png used on input line 107.
+(pdftex.def)             Requested size: 460.72124pt x 372.2926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--112
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_6.png>]
+<images/HyperV_10.png, id=1240, 879.285pt x 710.655pt>
+File: images/HyperV_10.png Graphic file (type png)
+
+<use images/HyperV_10.png>
+Package pdftex.def Info: images/HyperV_10.png used on input line 117.
+(pdftex.def)             Requested size: 460.72124pt x 372.36209pt.
+
+<images/HyperV_11.png, id=1241, 878.53218pt x 710.655pt>
+File: images/HyperV_11.png Graphic file (type png)
+
+<use images/HyperV_11.png>
+Package pdftex.def Info: images/HyperV_11.png used on input line 124.
+(pdftex.def)             Requested size: 460.72124pt x 372.6874pt.
+
+<images/HyperV_12.png, id=1242, 879.285pt x 709.90219pt>
+File: images/HyperV_12.png Graphic file (type png)
+
+<use images/HyperV_12.png>
+Package pdftex.def Info: images/HyperV_12.png used on input line 131.
+(pdftex.def)             Requested size: 460.72124pt x 371.96764pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--137
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_8.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_10.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/HyperV_12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34] <images/Snort.jpg, id=1315, 483.30562pt x 359.09157pt>
+File: images/Snort.jpg Graphic file (type jpg)
+
+<use images/Snort.jpg>
+Package pdftex.def Info: images/Snort.jpg used on input line 226.
+(pdftex.def)             Requested size: 368.57838pt x 273.86034pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--230
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35] <images/VM_network.png, id=1323, 451.6875pt x 207.77625pt>
+File: images/VM_network.png Graphic file (type png)
+
+<use images/VM_network.png>
+Package pdftex.def Info: images/VM_network.png used on input line 237.
+(pdftex.def)             Requested size: 368.57838pt x 169.55647pt.
+
+<images/VM_network_3.png, id=1324, 672.26157pt x 210.03468pt>
+File: images/VM_network_3.png Graphic file (type png)
+
+<use images/VM_network_3.png>
+Package pdftex.def Info: images/VM_network_3.png used on input line 244.
+(pdftex.def)             Requested size: 460.72124pt x 143.94339pt.
+
+<images/VM_network_2.png, id=1325, 449.42906pt x 373.395pt>
+File: images/VM_network_2.png Graphic file (type png)
+
+<use images/VM_network_2.png>
+Package pdftex.def Info: images/VM_network_2.png used on input line 253.
+(pdftex.def)             Requested size: 368.57838pt x 306.23715pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--257
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Snort.jpg> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report
+/scriptiePeterDedecker/boekje/images/VM_network.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_network_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--270
+
+ []
+
+
+Overfull \hbox (19.2634pt too wide) in paragraph at lines 265--270
+\OT1/cmr/bx/n/12 action pro-to-col sour-ceIP sour-ce-Port $\OMS/cmsy/m/n/12 !$ 
+\OT1/cmr/bx/n/12 des-ti-na-tionIP des-ti-na-tion-Port (OPTIONS); 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--270
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_network_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
+
+ []
+
+<images/VM_Pulledport_rules.png, id=1347, 200.24812pt x 94.10156pt>
+File: images/VM_Pulledport_rules.png Graphic file (type png)
+
+<use images/VM_Pulledport_rules.png>
+Package pdftex.def Info: images/VM_Pulledport_rules.png used on input line 298.
+
+(pdftex.def)             Requested size: 200.24763pt x 94.10132pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--302
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39] <images/VM_OK.png, id=1353, 494.59781pt x 194.22563pt>
+File: images/VM_OK.png Graphic file (type png)
+
+<use images/VM_OK.png>
+Package pdftex.def Info: images/VM_OK.png used on input line 309.
+(pdftex.def)             Requested size: 460.72124pt x 180.92136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--315
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_Pulledport_rules.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/VM_OK.png>]
+<images/Snort_3_2.png, id=1360, 798.73407pt x 467.49657pt>
+File: images/Snort_3_2.png Graphic file (type png)
+
+<use images/Snort_3_2.png>
+Package pdftex.def Info: images/Snort_3_2.png used on input line 321.
+(pdftex.def)             Requested size: 460.72124pt x 269.6573pt.
+
+<images/Snort_1.png, id=1361, 618.81187pt x 342.5297pt>
+File: images/Snort_1.png Graphic file (type png)
+
+<use images/Snort_1.png>
+Package pdftex.def Info: images/Snort_1.png used on input line 330.
+(pdftex.def)             Requested size: 460.72124pt x 255.03075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--336
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Snort_3_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+<images/Snort_4.png, id=1367, 743.77875pt x 481.04718pt>
+File: images/Snort_4.png Graphic file (type png)
+
+<use images/Snort_4.png>
+Package pdftex.def Info: images/Snort_4.png used on input line 346.
+(pdftex.def)             Requested size: 460.72124pt x 297.98192pt.
+
+<images/Snort_5.png, id=1368, 728.7225pt x 117.43875pt>
+File: images/Snort_5.png Graphic file (type png)
+
+<use images/Snort_5.png>
+Package pdftex.def Info: images/Snort_5.png used on input line 353.
+(pdftex.def)             Requested size: 460.72124pt x 74.24841pt.
+
+<images/Snort_6.png, id=1369, 730.98094pt x 114.4275pt>
+File: images/Snort_6.png Graphic file (type png)
+
+<use images/Snort_6.png>
+Package pdftex.def Info: images/Snort_6.png used on input line 360.
+(pdftex.def)             Requested size: 460.72124pt x 72.12112pt.
+
+<images/Snort_17.png, id=1370, 747.54282pt x 148.30406pt>
+File: images/Snort_17.png Graphic file (type png)
+
+<use images/Snort_17.png>
+Package pdftex.def Info: images/Snort_17.png used on input line 367.
+(pdftex.def)             Requested size: 460.72124pt x 91.40218pt.
+
+<images/Snort_8.png, id=1371, 742.27313pt x 111.41624pt>
+File: images/Snort_8.png Graphic file (type png)
+
+<use images/Snort_8.png>
+Package pdftex.def Info: images/Snort_8.png used on input line 374.
+(pdftex.def)             Requested size: 460.72124pt x 69.15555pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--380
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Snort_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Snort_4.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Repo
+rt/scriptiePeterDedecker/boekje/images/Snort_5.png> <C:/Users/Laurent/Dropbox/S
+chool/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Snort_6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Snort_17.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/Snort_8.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45] <images/Ping_Unfragmented_putty.png, id=1391, 271.76532pt x 15.80907pt>
+File: images/Ping_Unfragmented_putty.png Graphic file (type png)
+
+<use images/Ping_Unfragmented_putty.png>
+Package pdftex.def Info: images/Ping_Unfragmented_putty.png used on input line 
+449.
+(pdftex.def)             Requested size: 271.76465pt x 15.809pt.
+
+<images/Ping_Unfragmented.png, id=1392, 820.56563pt x 387.69844pt>
+File: images/Ping_Unfragmented.png Graphic file (type png)
+
+<use images/Ping_Unfragmented.png>
+Package pdftex.def Info: images/Ping_Unfragmented.png used on input line 455.
+(pdftex.def)             Requested size: 460.72124pt x 217.67755pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--458
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Ping_Unfragmented_putty.png>]
+<images/Ping_Fragmented_2_putty.png, id=1400, 415.5525pt x 133.24782pt>
+File: images/Ping_Fragmented_2_putty.png Graphic file (type png)
+
+<use images/Ping_Fragmented_2_putty.png>
+Package pdftex.def Info: images/Ping_Fragmented_2_putty.png used on input line 
+463.
+(pdftex.def)             Requested size: 415.55148pt x 133.24748pt.
+
+<images/Ping_Fragmented.png, id=1401, 825.0825pt x 355.3275pt>
+File: images/Ping_Fragmented.png Graphic file (type png)
+
+<use images/Ping_Fragmented.png>
+Package pdftex.def Info: images/Ping_Fragmented.png used on input line 470.
+(pdftex.def)             Requested size: 460.72124pt x 198.41273pt.
+
+<images/Ping_Fragmented_2.png, id=1402, 808.52063pt x 223.58531pt>
+File: images/Ping_Fragmented_2.png Graphic file (type png)
+
+<use images/Ping_Fragmented_2.png>
+Package pdftex.def Info: images/Ping_Fragmented_2.png used on input line 476.
+(pdftex.def)             Requested size: 460.72124pt x 127.40741pt.
+
+<images/Ping_Large.png, id=1403, 821.31844pt x 117.43875pt>
+File: images/Ping_Large.png Graphic file (type png)
+
+<use images/Ping_Large.png>
+Package pdftex.def Info: images/Ping_Large.png used on input line 483.
+(pdftex.def)             Requested size: 460.72124pt x 65.87634pt.
+
+<images/OS_Detection.png, id=1404, 816.80156pt x 125.71968pt>
+File: images/OS_Detection.png Graphic file (type png)
+
+<use images/OS_Detection.png>
+Package pdftex.def Info: images/OS_Detection.png used on input line 489.
+(pdftex.def)             Requested size: 460.72124pt x 70.9128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--492
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Ping_Unfragmented.png> <C:/Users/Laurent/Dropbox/School/Master/T
+hesis/Report/scriptiePeterDedecker/boekje/images/Ping_Fragmented_2_putty.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Ping_Fragmented.png> <C:/Users/Laurent/Dropbox/School/Master/The
+sis/Report/scriptiePeterDedecker/boekje/images/Ping_Fragmented_2.png> <C:/Users
+/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/image
+s/Ping_Large.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 497--501
+
+ []
+
+<images/VM_XSS_3_Better.png, id=1418, 347.79938pt x 191.21437pt>
+File: images/VM_XSS_3_Better.png Graphic file (type png)
+
+<use images/VM_XSS_3_Better.png>
+Package pdftex.def Info: images/VM_XSS_3_Better.png used on input line 513.
+(pdftex.def)             Requested size: 368.57838pt x 202.64833pt.
+
+<images/VM_XSS_2_Better.png, id=1419, 725.71124pt x 378.66469pt>
+File: images/VM_XSS_2_Better.png Graphic file (type png)
+
+<use images/VM_XSS_2_Better.png>
+Package pdftex.def Info: images/VM_XSS_2_Better.png used on input line 523.
+(pdftex.def)             Requested size: 460.72124pt x 240.40317pt.
+
+<images/VM_XSS_1_Better.png, id=1420, 415.5525pt x 222.8325pt>
+File: images/VM_XSS_1_Better.png Graphic file (type png)
+
+<use images/VM_XSS_1_Better.png>
+Package pdftex.def Info: images/VM_XSS_1_Better.png used on input line 531.
+(pdftex.def)             Requested size: 460.72124pt x 247.06479pt.
+
+<images/VM_XSS_5.png, id=1421, 732.48656pt x 100.12407pt>
+File: images/VM_XSS_5.png Graphic file (type png)
+
+<use images/VM_XSS_5.png>
+Package pdftex.def Info: images/VM_XSS_5.png used on input line 539.
+(pdftex.def)             Requested size: 460.72124pt x 62.97765pt.
+
+<images/VM_XSS_6.png, id=1422, 756.57657pt x 39.14626pt>
+File: images/VM_XSS_6.png Graphic file (type png)
+
+<use images/VM_XSS_6.png>
+Package pdftex.def Info: images/VM_XSS_6.png used on input line 545.
+(pdftex.def)             Requested size: 460.72124pt x 23.83855pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--548
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/OS_Detection.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_XSS_3_Better.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_XSS_2_Better.png> <C:/Users/Laurent/Dropbox/School/Master/The
+sis/Report/scriptiePeterDedecker/boekje/images/VM_XSS_1_Better.png>]
+
+Package natbib Warning: Citation `SQLInj' on page 52 undefined on input line 55
+1.
+
+<images/VM_SQL_1.png, id=1441, 328.97906pt x 262.73157pt>
+File: images/VM_SQL_1.png Graphic file (type png)
+
+<use images/VM_SQL_1.png>
+Package pdftex.def Info: images/VM_SQL_1.png used on input line 557.
+(pdftex.def)             Requested size: 328.97826pt x 262.73091pt.
+
+<images/VM_SQL_3.png, id=1442, 912.40875pt x 457.71pt>
+File: images/VM_SQL_3.png Graphic file (type png)
+
+<use images/VM_SQL_3.png>
+Package pdftex.def Info: images/VM_SQL_3.png used on input line 565.
+(pdftex.def)             Requested size: 460.72124pt x 231.11728pt.
+
+<images/VM_SQL_2.png, id=1443, 708.39656pt x 307.90031pt>
+File: images/VM_SQL_2.png Graphic file (type png)
+
+<use images/VM_SQL_2.png>
+Package pdftex.def Info: images/VM_SQL_2.png used on input line 573.
+(pdftex.def)             Requested size: 460.72124pt x 200.25497pt.
+
+<images/VM_SQL_4.png, id=1444, 351.56343pt x 310.15875pt>
+File: images/VM_SQL_4.png Graphic file (type png)
+
+<use images/VM_SQL_4.png>
+Package pdftex.def Info: images/VM_SQL_4.png used on input line 581.
+(pdftex.def)             Requested size: 351.56256pt x 310.15799pt.
+
+<images/VM_SQL_8.png, id=1445, 745.28438pt x 38.39343pt>
+File: images/VM_SQL_8.png Graphic file (type png)
+
+<use images/VM_SQL_8.png>
+Package pdftex.def Info: images/VM_SQL_8.png used on input line 589.
+(pdftex.def)             Requested size: 460.72124pt x 23.73395pt.
+
+<images/VM_SQL_9.png, id=1446, 756.57657pt x 71.51718pt>
+File: images/VM_SQL_9.png Graphic file (type png)
+
+<use images/VM_SQL_9.png>
+Package pdftex.def Info: images/VM_SQL_9.png used on input line 595.
+(pdftex.def)             Requested size: 460.72124pt x 43.5512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--598
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_XSS_5.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/VM_XSS_6.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_SQL_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_SQL_3.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/VM_SQL_2.png>]
+<images/VM_Command_2.png, id=1463, 418.56375pt x 161.85469pt>
+File: images/VM_Command_2.png Graphic file (type png)
+
+<use images/VM_Command_2.png>
+Package pdftex.def Info: images/VM_Command_2.png used on input line 606.
+(pdftex.def)             Requested size: 460.72124pt x 178.1543pt.
+
+<images/VM_Command_1.png, id=1464, 648.92438pt x 311.66437pt>
+File: images/VM_Command_1.png Graphic file (type png)
+
+<use images/VM_Command_1.png>
+Package pdftex.def Info: images/VM_Command_1.png used on input line 614.
+(pdftex.def)             Requested size: 460.72124pt x 221.27849pt.
+
+<images/VM_Command_4.png, id=1465, 682.04813pt x 371.13657pt>
+File: images/VM_Command_4.png Graphic file (type png)
+
+<use images/VM_Command_4.png>
+Package pdftex.def Info: images/VM_Command_4.png used on input line 622.
+(pdftex.def)             Requested size: 460.72124pt x 250.70457pt.
+
+<images/VM_Command_3.png, id=1466, 734.745pt x 94.10156pt>
+File: images/VM_Command_3.png Graphic file (type png)
+
+<use images/VM_Command_3.png>
+Package pdftex.def Info: images/VM_Command_3.png used on input line 631.
+(pdftex.def)             Requested size: 460.72124pt x 59.00716pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--636
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_SQL_4.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/VM_SQL_8.png> <C:/Users/Laurent/Dropbox
+/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/VM_SQL_9.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_Command_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_Command_1.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis
+/Report/scriptiePeterDedecker/boekje/images/VM_Command_4.png>]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 641.
+
+<images/FTP_1.png, id=1483, 822.07124pt x 216.81pt>
+File: images/FTP_1.png Graphic file (type png)
+ <use images/FTP_1.png>
+Package pdftex.def Info: images/FTP_1.png used on input line 645.
+(pdftex.def)             Requested size: 460.72124pt x 121.5087pt.
+
+<images/FTP_2.png, id=1484, 822.82407pt x 137.7647pt>
+File: images/FTP_2.png Graphic file (type png)
+ <use images/FTP_2.png>
+Package pdftex.def Info: images/FTP_2.png used on input line 651.
+(pdftex.def)             Requested size: 460.72124pt x 77.13718pt.
+
+<images/FTP_4.png, id=1485, 544.28343pt x 168.63pt>
+File: images/FTP_4.png Graphic file (type png)
+ <use images/FTP_4.png>
+Package pdftex.def Info: images/FTP_4.png used on input line 657.
+(pdftex.def)             Requested size: 460.72124pt x 142.73921pt.
+
+<images/FTP_3.png, id=1486, 817.55438pt x 198.7425pt>
+File: images/FTP_3.png Graphic file (type png)
+ <use images/FTP_3.png>
+Package pdftex.def Info: images/FTP_3.png used on input line 663.
+(pdftex.def)             Requested size: 460.72124pt x 111.99858pt.
+
+<images/FTP_6.png, id=1487, 509.65407pt x 389.95688pt>
+File: images/FTP_6.png Graphic file (type png)
+ <use images/FTP_6.png>
+Package pdftex.def Info: images/FTP_6.png used on input line 670.
+(pdftex.def)             Requested size: 460.72124pt x 352.53476pt.
+
+<images/FTP_5.png, id=1488, 758.835pt x 322.20375pt>
+File: images/FTP_5.png Graphic file (type png)
+ <use images/FTP_5.png>
+Package pdftex.def Info: images/FTP_5.png used on input line 676.
+(pdftex.def)             Requested size: 460.72124pt x 195.62462pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--679
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/VM_Command_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/FTP_1.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report
+/scriptiePeterDedecker/boekje/images/FTP_2.png> <C:/Users/Laurent/Dropbox/Schoo
+l/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/FTP_4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/FTP_3.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report
+/scriptiePeterDedecker/boekje/images/FTP_6.png>]
+<images/SSH.png, id=1507, 813.79031pt x 56.46094pt>
+File: images/SSH.png Graphic file (type png)
+ <use images/SSH.png>
+Package pdftex.def Info: images/SSH.png used on input line 689.
+(pdftex.def)             Requested size: 460.72124pt x 31.96509pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--694
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/FTP_5.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report
+/scriptiePeterDedecker/boekje/images/SSH.png>]
+<images/Hosts_Allow.png, id=1516, 474.27188pt x 141.52875pt>
+File: images/Hosts_Allow.png Graphic file (type png)
+
+<use images/Hosts_Allow.png>
+Package pdftex.def Info: images/Hosts_Allow.png used on input line 702.
+(pdftex.def)             Requested size: 460.72124pt x 137.49002pt.
+
+<images/Hosts_Deny.png, id=1517, 482.55281pt x 215.30438pt>
+File: images/Hosts_Deny.png Graphic file (type png)
+
+<use images/Hosts_Deny.png>
+Package pdftex.def Info: images/Hosts_Deny.png used on input line 708.
+(pdftex.def)             Requested size: 460.72124pt x 205.56956pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--711
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Hosts_Allow.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/
+Report/scriptiePeterDedecker/boekje/images/Hosts_Deny.png>]
+<images/MySQL_3.png, id=1522, 508.14844pt x 277.78781pt>
+File: images/MySQL_3.png Graphic file (type png)
+
+<use images/MySQL_3.png>
+Package pdftex.def Info: images/MySQL_3.png used on input line 722.
+(pdftex.def)             Requested size: 460.72124pt x 251.87172pt.
+
+<images/MySQL_1.png, id=1523, 749.80125pt x 150.5625pt>
+File: images/MySQL_1.png Graphic file (type png)
+
+<use images/MySQL_1.png>
+Package pdftex.def Info: images/MySQL_1.png used on input line 728.
+(pdftex.def)             Requested size: 460.72124pt x 92.51611pt.
+
+<images/MySQL_2.png, id=1524, 749.04843pt x 164.86594pt>
+File: images/MySQL_2.png Graphic file (type png)
+
+<use images/MySQL_2.png>
+Package pdftex.def Info: images/MySQL_2.png used on input line 735.
+(pdftex.def)             Requested size: 460.72124pt x 101.40576pt.
+
+<images/MySQL_4.png, id=1525, 806.26219pt x 180.675pt>
+File: images/MySQL_4.png Graphic file (type png)
+
+<use images/MySQL_4.png>
+Package pdftex.def Info: images/MySQL_4.png used on input line 740.
+(pdftex.def)             Requested size: 460.72124pt x 103.2422pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--743
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/MySQL_3.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Repo
+rt/scriptiePeterDedecker/boekje/images/MySQL_1.png>]
+<images/Trojan_1.png, id=1533, 496.85625pt x 144.54pt>
+File: images/Trojan_1.png Graphic file (type png)
+
+<use images/Trojan_1.png>
+Package pdftex.def Info: images/Trojan_1.png used on input line 750.
+(pdftex.def)             Requested size: 460.72124pt x 134.03041pt.
+
+<images/Trojan_2.png, id=1534, 487.06969pt x 186.6975pt>
+File: images/Trojan_2.png Graphic file (type png)
+
+<use images/Trojan_2.png>
+Package pdftex.def Info: images/Trojan_2.png used on input line 756.
+(pdftex.def)             Requested size: 460.72124pt x 176.59814pt.
+
+<images/Trojan_3.png, id=1535, 405.76593pt x 93.34875pt>
+File: images/Trojan_3.png Graphic file (type png)
+
+<use images/Trojan_3.png>
+Package pdftex.def Info: images/Trojan_3.png used on input line 762.
+(pdftex.def)             Requested size: 460.72124pt x 105.9942pt.
+
+<images/Trojan_4.png, id=1536, 501.37312pt x 267.24844pt>
+File: images/Trojan_4.png Graphic file (type png)
+
+<use images/Trojan_4.png>
+Package pdftex.def Info: images/Trojan_4.png used on input line 768.
+(pdftex.def)             Requested size: 460.72124pt x 245.59018pt.
+
+<images/Trojan_5.png, id=1537, 499.11469pt x 366.61969pt>
+File: images/Trojan_5.png Graphic file (type png)
+
+<use images/Trojan_5.png>
+Package pdftex.def Info: images/Trojan_5.png used on input line 774.
+(pdftex.def)             Requested size: 460.72124pt x 338.42981pt.
+
+<images/Trojan_7.png, id=1538, 506.6428pt x 386.19281pt>
+File: images/Trojan_7.png Graphic file (type png)
+
+<use images/Trojan_7.png>
+Package pdftex.def Info: images/Trojan_7.png used on input line 780.
+(pdftex.def)             Requested size: 460.72124pt x 351.19438pt.
+
+<images/Trojan_6.png, id=1539, 834.11626pt x 342.5297pt>
+File: images/Trojan_6.png Graphic file (type png)
+
+<use images/Trojan_6.png>
+Package pdftex.def Info: images/Trojan_6.png used on input line 786.
+(pdftex.def)             Requested size: 460.72124pt x 189.1968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--791
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/MySQL_2.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Repo
+rt/scriptiePeterDedecker/boekje/images/MySQL_4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Trojan_1.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/Trojan_2.png> <C:/Users/Laurent/Dropbox
+/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Trojan_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Trojan_4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Trojan_5.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Trojan_7.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Rep
+ort/scriptiePeterDedecker/boekje/images/Trojan_6.png>]
+<images/DOS_2.png, id=1567, 578.16pt x 464.4853pt>
+File: images/DOS_2.png Graphic file (type png)
+ <use images/DOS_2.png>
+Package pdftex.def Info: images/DOS_2.png used on input line 797.
+(pdftex.def)             Requested size: 460.72124pt x 370.13582pt.
+
+<images/DOS.png, id=1568, 834.86906pt x 205.5178pt>
+File: images/DOS.png Graphic file (type png)
+ <use images/DOS.png>
+Package pdftex.def Info: images/DOS.png used on input line 803.
+(pdftex.def)             Requested size: 460.72124pt x 113.41772pt.
+
+<images/DOS_4.png, id=1569, 933.4875pt x 567.62062pt>
+File: images/DOS_4.png Graphic file (type png)
+ <use images/DOS_4.png>
+Package pdftex.def Info: images/DOS_4.png used on input line 809.
+(pdftex.def)             Requested size: 460.72124pt x 280.14592pt.
+
+<images/DOS_3.png, id=1570, 831.85782pt x 219.06844pt>
+File: images/DOS_3.png Graphic file (type png)
+ <use images/DOS_3.png>
+Package pdftex.def Info: images/DOS_3.png used on input line 815.
+(pdftex.def)             Requested size: 460.72124pt x 121.33037pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--818
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/DOS_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/DOS.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/s
+criptiePeterDedecker/boekje/images/DOS_4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 827--829
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/DOS_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
+
+ []
+
+<images/Random_1.png, id=1590, 833.36343pt x 394.47375pt>
+File: images/Random_1.png Graphic file (type png)
+
+<use images/Random_1.png>
+Package pdftex.def Info: images/Random_1.png used on input line 844.
+(pdftex.def)             Requested size: 460.72124pt x 218.0868pt.
+
+<images/Metasploit_1.png, id=1591, 819.8128pt x 136.25906pt>
+File: images/Metasploit_1.png Graphic file (type png)
+
+<use images/Metasploit_1.png>
+Package pdftex.def Info: images/Metasploit_1.png used on input line 850.
+(pdftex.def)             Requested size: 460.72124pt x 76.5769pt.
+
+<images/Exe.png, id=1592, 819.8128pt x 137.7647pt>
+File: images/Exe.png Graphic file (type png)
+ <use images/Exe.png>
+Package pdftex.def Info: images/Exe.png used on input line 856.
+(pdftex.def)             Requested size: 460.72124pt x 77.42307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--861
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Random_1.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report
+/scriptiePeterDedecker/boekje/images/Metasploit_1.png> <C:/Users/Laurent/Dropbo
+x/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Exe.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
+
+ []
+
+<images/Network_13.png, id=1599, 983.17313pt x 733.99219pt>
+File: images/Network_13.png Graphic file (type png)
+
+<use images/Network_13.png>
+Package pdftex.def Info: images/Network_13.png used on input line 881.
+(pdftex.def)             Requested size: 460.72124pt x 343.95718pt.
+
+<images/Mount_1_13.png, id=1600, 578.16pt x 318.43968pt>
+File: images/Mount_1_13.png Graphic file (type png)
+
+<use images/Mount_1_13.png>
+Package pdftex.def Info: images/Mount_1_13.png used on input line 889.
+(pdftex.def)             Requested size: 460.72124pt x 253.756pt.
+
+<images/Mount_2_13.png, id=1601, 486.31688pt x 348.55219pt>
+File: images/Mount_2_13.png Graphic file (type png)
+
+<use images/Mount_2_13.png>
+Package pdftex.def Info: images/Mount_2_13.png used on input line 895.
+(pdftex.def)             Requested size: 460.72124pt x 330.2079pt.
+
+<images/Payload_1_13.png, id=1602, 508.90125pt x 311.66437pt>
+File: images/Payload_1_13.png Graphic file (type png)
+
+<use images/Payload_1_13.png>
+Package pdftex.def Info: images/Payload_1_13.png used on input line 903.
+(pdftex.def)             Requested size: 460.72124pt x 282.16931pt.
+
+<images/Shares_1_13.png, id=1603, 517.18219pt x 134.00063pt>
+File: images/Shares_1_13.png Graphic file (type png)
+
+<use images/Shares_1_13.png>
+Package pdftex.def Info: images/Shares_1_13.png used on input line 909.
+(pdftex.def)             Requested size: 460.72124pt x 119.37671pt.
+
+<images/Shell_1_13.png, id=1604, 489.32813pt x 88.07906pt>
+File: images/Shell_1_13.png Graphic file (type png)
+
+<use images/Shell_1_13.png>
+Package pdftex.def Info: images/Shell_1_13.png used on input line 915.
+(pdftex.def)             Requested size: 460.72124pt x 82.9314pt.
+
+<images/Shell_2_13.png, id=1605, 491.58656pt x 317.68687pt>
+File: images/Shell_2_13.png Graphic file (type png)
+
+<use images/Shell_2_13.png>
+Package pdftex.def Info: images/Shell_2_13.png used on input line 921.
+(pdftex.def)             Requested size: 460.72124pt x 297.75313pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--926
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Network_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Mount_1_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Mount_2_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Payload_1_13.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis
+/Report/scriptiePeterDedecker/boekje/images/Shares_1_13.png>]
+<images/Hack_3_13.png, id=1629, 517.18219pt x 227.34938pt>
+File: images/Hack_3_13.png Graphic file (type png)
+
+<use images/Hack_3_13.png>
+Package pdftex.def Info: images/Hack_3_13.png used on input line 933.
+(pdftex.def)             Requested size: 460.72124pt x 202.53804pt.
+
+<images/Hack_1_13.png, id=1630, 578.16pt x 116.68594pt>
+File: images/Hack_1_13.png Graphic file (type png)
+
+<use images/Hack_1_13.png>
+Package pdftex.def Info: images/Hack_1_13.png used on input line 940.
+(pdftex.def)             Requested size: 460.72124pt x 92.98386pt.
+
+<images/Hack_2_13.png, id=1631, 508.14844pt x 164.86594pt>
+File: images/Hack_2_13.png Graphic file (type png)
+
+<use images/Hack_2_13.png>
+Package pdftex.def Info: images/Hack_2_13.png used on input line 947.
+(pdftex.def)             Requested size: 460.72124pt x 149.48483pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--952
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Shell_1_13.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/R
+eport/scriptiePeterDedecker/boekje/images/Shell_2_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Hack_3_13.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Re
+port/scriptiePeterDedecker/boekje/images/Hack_1_13.png>]
+<images/DOS_2_13.png, id=1643, 508.90125pt x 130.98938pt>
+File: images/DOS_2_13.png Graphic file (type png)
+
+<use images/DOS_2_13.png>
+Package pdftex.def Info: images/DOS_2_13.png used on input line 959.
+(pdftex.def)             Requested size: 460.72124pt x 118.59288pt.
+
+<images/DOS_1_13.png, id=1644, 493.845pt x 447.17062pt>
+File: images/DOS_1_13.png Graphic file (type png)
+
+<use images/DOS_1_13.png>
+Package pdftex.def Info: images/DOS_1_13.png used on input line 965.
+(pdftex.def)             Requested size: 460.72124pt x 417.17444pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--970
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Hack_2_13.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/Re
+port/scriptiePeterDedecker/boekje/images/DOS_2_13.png>]
+<images/BitLocker_1.png, id=1650, 278.54062pt x 316.18124pt>
+File: images/BitLocker_1.png Graphic file (type png)
+
+<use images/BitLocker_1.png>
+Package pdftex.def Info: images/BitLocker_1.png used on input line 990.
+(pdftex.def)             Requested size: 278.53993pt x 316.18047pt.
+
+<images/BitLocker_2.png, id=1651, 526.21594pt x 249.93375pt>
+File: images/BitLocker_2.png Graphic file (type png)
+
+<use images/BitLocker_2.png>
+Package pdftex.def Info: images/BitLocker_2.png used on input line 996.
+(pdftex.def)             Requested size: 460.72124pt x 218.83641pt.
+
+<images/BitLocker_4.png, id=1652, 775.39688pt x 144.54pt>
+File: images/BitLocker_4.png Graphic file (type png)
+
+<use images/BitLocker_4.png>
+Package pdftex.def Info: images/BitLocker_4.png used on input line 1002.
+(pdftex.def)             Requested size: 460.72124pt x 85.88216pt.
+
+<images/BitLocker_5.png, id=1653, 625.58719pt x 35.38219pt>
+File: images/BitLocker_5.png Graphic file (type png)
+
+<use images/BitLocker_5.png>
+Package pdftex.def Info: images/BitLocker_5.png used on input line 1008.
+(pdftex.def)             Requested size: 460.72124pt x 26.05823pt.
+
+<images/BitLocker_6.png, id=1654, 600.74437pt x 452.4403pt>
+File: images/BitLocker_6.png Graphic file (type png)
+
+<use images/BitLocker_6.png>
+Package pdftex.def Info: images/BitLocker_6.png used on input line 1014.
+(pdftex.def)             Requested size: 460.72124pt x 346.99248pt.
+
+<images/BitLocker_7.png, id=1655, 784.43062pt x 660.21657pt>
+File: images/BitLocker_7.png Graphic file (type png)
+
+<use images/BitLocker_7.png>
+Package pdftex.def Info: images/BitLocker_7.png used on input line 1020.
+(pdftex.def)             Requested size: 460.72124pt x 387.7715pt.
+
+<images/BitLocker_8.png, id=1656, 782.17218pt x 283.0575pt>
+File: images/BitLocker_8.png Graphic file (type png)
+
+<use images/BitLocker_8.png>
+Package pdftex.def Info: images/BitLocker_8.png used on input line 1026.
+(pdftex.def)             Requested size: 460.72124pt x 166.73036pt.
+
+<images/BitLocker_9.png, id=1657, 477.28313pt x 389.20406pt>
+File: images/BitLocker_9.png Graphic file (type png)
+
+<use images/BitLocker_9.png>
+Package pdftex.def Info: images/BitLocker_9.png used on input line 1032.
+(pdftex.def)             Requested size: 391.61586pt x 319.34537pt.
+
+<images/BitLocker_10.png, id=1658, 195.73125pt x 50.43843pt>
+File: images/BitLocker_10.png Graphic file (type png)
+
+<use images/BitLocker_10.png>
+Package pdftex.def Info: images/BitLocker_10.png used on input line 1038.
+(pdftex.def)             Requested size: 195.73076pt x 50.4383pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--1043
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/DOS_1_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_1.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/
+Report/scriptiePeterDedecker/boekje/images/BitLocker_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_4.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/
+Report/scriptiePeterDedecker/boekje/images/BitLocker_5.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_6.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_7.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_8.png> <C:/Users/Laurent/Dropbox/School/Master/Thesis/
+Report/scriptiePeterDedecker/boekje/images/BitLocker_9.png>]
+<images/Pre_BitLocker_1.png, id=1689, 311.66437pt x 314.67563pt>
+File: images/Pre_BitLocker_1.png Graphic file (type png)
+
+<use images/Pre_BitLocker_1.png>
+Package pdftex.def Info: images/Pre_BitLocker_1.png used on input line 1051.
+(pdftex.def)             Requested size: 311.6636pt x 314.67485pt.
+
+<images/Pre_BitLocker_3.png, id=1690, 678.28406pt x 575.14874pt>
+File: images/Pre_BitLocker_3.png Graphic file (type png)
+
+<use images/Pre_BitLocker_3.png>
+Package pdftex.def Info: images/Pre_BitLocker_3.png used on input line 1057.
+(pdftex.def)             Requested size: 460.72124pt x 390.66594pt.
+
+<images/Post_BitLocker_1.png, id=1691, 313.17pt x 320.69812pt>
+File: images/Post_BitLocker_1.png Graphic file (type png)
+
+<use images/Post_BitLocker_1.png>
+Package pdftex.def Info: images/Post_BitLocker_1.png used on input line 1063.
+(pdftex.def)             Requested size: 313.16922pt x 320.69733pt.
+
+<images/Post_BitLocker_2.png, id=1692, 679.78969pt x 577.40718pt>
+File: images/Post_BitLocker_2.png Graphic file (type png)
+
+<use images/Post_BitLocker_2.png>
+Package pdftex.def Info: images/Post_BitLocker_2.png used on input line 1069.
+(pdftex.def)             Requested size: 460.72124pt x 391.32773pt.
+)
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\chapters\cloud.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/BitLocker_10.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Pre_BitLocker_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Pre_BitLocker_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Post_BitLocker_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Post_BitLocker_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93]
+Chapter 4.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 27.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 27.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94
+
+] <images/Screenshots/vmmtest_IP.png, id=1728, 311.66437pt x 347.79938pt>
+File: images/Screenshots/vmmtest_IP.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_IP.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_IP.png used on input line 4
+4.
+(pdftex.def)             Requested size: 311.6636pt x 347.79852pt.
+
+<images/Screenshots/vmmtest_Domain.png, id=1729, 253.69781pt x 299.61937pt>
+File: images/Screenshots/vmmtest_Domain.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_Domain.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_Domain.png used on input li
+ne 52.
+(pdftex.def)             Requested size: 253.69719pt x 299.61864pt.
+
+<images/Screenshots/vmmtest_Domain_2.png, id=1730, 274.02374pt x 129.48375pt>
+File: images/Screenshots/vmmtest_Domain_2.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_Domain_2.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_Domain_2.png used on input 
+line 58.
+(pdftex.def)             Requested size: 274.02307pt x 129.48341pt.
+
+<images/Screenshots/vmmtest_Overview.png, id=1731, 738.50906pt x 268.75406pt>
+File: images/Screenshots/vmmtest_Overview.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_Overview.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_Overview.png used on input 
+line 66.
+(pdftex.def)             Requested size: 460.72124pt x 167.6633pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--70
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Screenshots/vmmtest_IP.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Screenshots/vmmtest_Domain.png> <C:/Users/Laurent/Dropbox/School
+/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_D
+omain_2.png>]
+<images/Screenshots/vmmtest_SQL_2.png, id=1746, 660.21657pt x 194.97844pt>
+File: images/Screenshots/vmmtest_SQL_2.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_2.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_2.png used on input lin
+e 79.
+(pdftex.def)             Requested size: 460.72124pt x 136.06744pt.
+
+<images/Screenshots/vmmtest_SQL_1.png, id=1747, 587.19376pt x 304.13625pt>
+File: images/Screenshots/vmmtest_SQL_1.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_1.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_1.png used on input lin
+e 87.
+(pdftex.def)             Requested size: 460.72124pt x 238.63145pt.
+
+<images/Screenshots/vmmtest_SQL_3.png, id=1748, 602.25pt x 246.1697pt>
+File: images/Screenshots/vmmtest_SQL_3.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_3.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_3.png used on input lin
+e 93.
+(pdftex.def)             Requested size: 460.72124pt x 188.3267pt.
+
+Overfull \hbox (8.22902pt too wide) in paragraph at lines 73--98
+\OT1/cmtt/m/n/12 dism /online /enable-feature /featurename:netfx3 /all /source:
+d:$\OMS/cmsy/m/n/12 n$\OT1/cmtt/m/n/12 sources$\OMS/cmsy/m/n/12 n$\OT1/cmtt/m/n
+/12 sxs 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--98
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Screenshots/vmmtest_Overview.png> <C:/Users/Laurent/Dropbox/Scho
+ol/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest
+_SQL_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker
+/boekje/images/Screenshots/vmmtest_SQL_1.png> <C:/Users/Laurent/Dropbox/School/
+Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_SQ
+L_3.png>]
+<images/Screenshots/vmmtest_SQL_4.png, id=1760, 617.30624pt x 462.97969pt>
+File: images/Screenshots/vmmtest_SQL_4.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_4.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_4.png used on input lin
+e 103.
+(pdftex.def)             Requested size: 460.72124pt x 345.55255pt.
+
+<images/Screenshots/vmmtest_SQL_5.png, id=1761, 617.30624pt x 462.97969pt>
+File: images/Screenshots/vmmtest_SQL_5.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_5.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_5.png used on input lin
+e 111.
+(pdftex.def)             Requested size: 460.72124pt x 345.55255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--116
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_4.png>]
+<images/Screenshots/vmmtest_SQL_6.png, id=1766, 617.30624pt x 576.65437pt>
+File: images/Screenshots/vmmtest_SQL_6.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_6.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_6.png used on input lin
+e 125.
+(pdftex.def)             Requested size: 460.72124pt x 430.39554pt.
+
+<images/Screenshots/vmmtest_SQL_7.png, id=1767, 617.30624pt x 462.97969pt>
+File: images/Screenshots/vmmtest_SQL_7.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_7.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_7.png used on input lin
+e 133.
+(pdftex.def)             Requested size: 460.72124pt x 345.55255pt.
+
+<images/Screenshots/vmmtest_SQL_8.png, id=1768, 617.30624pt x 462.97969pt>
+File: images/Screenshots/vmmtest_SQL_8.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_8.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_8.png used on input lin
+e 139.
+(pdftex.def)             Requested size: 460.72124pt x 345.55255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--143
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_5.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_6.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[103 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_8.png>]
+<images/Screenshots/vmmtest_AD_1.png, id=1788, 578.16pt x 222.8325pt>
+File: images/Screenshots/vmmtest_AD_1.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_1.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_1.png used on input line
+ 155.
+(pdftex.def)             Requested size: 460.72124pt x 177.56921pt.
+
+<images/Screenshots/vmmtest_AD_2.png, id=1789, 319.94531pt x 410.2828pt>
+File: images/Screenshots/vmmtest_AD_2.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_2.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_2.png used on input line
+ 161.
+(pdftex.def)             Requested size: 319.94452pt x 410.2818pt.
+
+<images/Screenshots/vmmtest_AD_3.png, id=1790, 341.77687pt x 224.33812pt>
+File: images/Screenshots/vmmtest_AD_3.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_3.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_3.png used on input line
+ 171.
+(pdftex.def)             Requested size: 341.77603pt x 224.33757pt.
+
+<images/Screenshots/vmmtest_AD_4.png, id=1791, 339.51843pt x 289.83281pt>
+File: images/Screenshots/vmmtest_AD_4.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_4.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_4.png used on input line
+ 177.
+(pdftex.def)             Requested size: 339.5176pt x 289.83209pt.
+
+<images/Screenshots/vmmtest_AD_5.png, id=1792, 339.51843pt x 289.83281pt>
+File: images/Screenshots/vmmtest_AD_5.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_5.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_5.png used on input line
+ 183.
+(pdftex.def)             Requested size: 339.5176pt x 289.83209pt.
+
+<images/Screenshots/vmmtest_AD_6.png, id=1793, 700.86844pt x 243.15843pt>
+File: images/Screenshots/vmmtest_AD_6.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_6.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_6.png used on input line
+ 192.
+(pdftex.def)             Requested size: 460.72124pt x 159.84688pt.
+
+<images/Screenshots/vmmtest_AD_9.png, id=1794, 647.41875pt x 355.3275pt>
+File: images/Screenshots/vmmtest_AD_9.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_AD_9.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_AD_9.png used on input line
+ 206.
+(pdftex.def)             Requested size: 460.72124pt x 252.86441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--210
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_AD_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_AD_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_AD_3.png> <C:/Users/Laurent/Dropbox/School/
+Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_AD
+_4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_AD_5.png>]
+<images/Screenshots/vmmtest_SQL_9.png, id=1812, 320.69812pt x 242.40562pt>
+File: images/Screenshots/vmmtest_SQL_9.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_9.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_9.png used on input lin
+e 217.
+(pdftex.def)             Requested size: 320.69733pt x 242.40501pt.
+
+<images/Screenshots/vmmtest_SQL_10.png, id=1813, 258.9675pt x 301.8778pt>
+File: images/Screenshots/vmmtest_SQL_10.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_10.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_10.png used on input li
+ne 223.
+(pdftex.def)             Requested size: 258.96684pt x 301.87706pt.
+
+<images/Screenshots/vmmtest_SQL_11.png, id=1814, 554.07pt x 310.91156pt>
+File: images/Screenshots/vmmtest_SQL_11.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_11.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_11.png used on input li
+ne 231.
+(pdftex.def)             Requested size: 460.72124pt x 258.53093pt.
+
+<images/Screenshots/vmmtest_SQL_12.png, id=1815, 254.45062pt x 254.45062pt>
+File: images/Screenshots/vmmtest_SQL_12.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_SQL_12.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_SQL_12.png used on input li
+ne 237.
+(pdftex.def)             Requested size: 254.45pt x 254.45pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--241
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_AD_6.png> <C:/Users/Laurent/Dropbox/School/
+Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_AD
+_9.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_9.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_10.png>]
+<images/Screenshots/vmmtest_IE_1.png, id=1831, 790.45313pt x 493.845pt>
+File: images/Screenshots/vmmtest_IE_1.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_IE_1.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_IE_1.png used on input line
+ 248.
+(pdftex.def)             Requested size: 460.72124pt x 287.83942pt.
+
+<images/Screenshots/vmmtest_WADK_1.png, id=1832, 572.1375pt x 421.575pt>
+File: images/Screenshots/vmmtest_WADK_1.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_WADK_1.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_WADK_1.png used on input li
+ne 256.
+(pdftex.def)             Requested size: 460.72124pt x 339.47974pt.
+
+<images/Screenshots/vmmtest_WADK_2.png, id=1833, 572.1375pt x 421.575pt>
+File: images/Screenshots/vmmtest_WADK_2.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_WADK_2.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_WADK_2.png used on input li
+ne 265.
+(pdftex.def)             Requested size: 460.72124pt x 339.47974pt.
+
+<images/Screenshots/vmmtest_VMM_1.png, id=1834, 566.115pt x 215.30438pt>
+File: images/Screenshots/vmmtest_VMM_1.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_1.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_1.png used on input lin
+e 273.
+(pdftex.def)             Requested size: 460.72124pt x 175.22676pt.
+
+<images/Screenshots/vmmtest_VMM_2.png, id=1835, 548.0475pt x 393.72093pt>
+File: images/Screenshots/vmmtest_VMM_2.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_2.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_2.png used on input lin
+e 281.
+(pdftex.def)             Requested size: 460.72124pt x 330.99367pt.
+
+<images/Screenshots/vmmtest_VMM_3.png, id=1836, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_3.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_3.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_3.png used on input lin
+e 289.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+<images/Screenshots/vmmtest_VMM_4.png, id=1837, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_4.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_4.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_4.png used on input lin
+e 297.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--300
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_SQL_11.png> <C:/Users/Laurent/Dropbox/Schoo
+l/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_
+SQL_12.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_IE_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_WADK_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_WADK_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_VMM_1.png> <C:/Users/Laurent/Dropbox/School
+/Master/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/vmmtest_V
+MM_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_VMM_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_VMM_4.png>]
+<images/Screenshots/vmmtest_VMM_5.png, id=1868, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_5.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_5.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_5.png used on input lin
+e 309.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--312
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/vmmtest_VMM_5.png>]
+<images/Screenshots/vmmtest_VMM_6.png, id=1873, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_6.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_6.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_6.png used on input lin
+e 321.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--324
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/vmmtest_VMM_6.png>]
+<images/Screenshots/vmmtest_VMM_7.png, id=1878, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_7.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_7.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_7.png used on input lin
+e 331.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+<images/Screenshots/vmmtest_VMM_8.png, id=1879, 565.36218pt x 427.5975pt>
+File: images/Screenshots/vmmtest_VMM_8.png Graphic file (type png)
+
+<use images/Screenshots/vmmtest_VMM_8.png>
+Package pdftex.def Info: images/Screenshots/vmmtest_VMM_8.png used on input lin
+e 337.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--340
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/vmmtest_VMM_7.png>]
+Overfull \hbox (11.1429pt too wide) in paragraph at lines 343--346
+\OT1/cmtt/m/n/12 Machine Manager 2012 R2 $\OMS/cmsy/m/n/12 !$ \OT1/cmtt/m/n/12 
+Service Provider Foundation $\OMS/cmsy/m/n/12 !$ \OT1/cmtt/m/n/12 Windows Azure
+ Pack\OT1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[122 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/vmmtest_VMM_8.png>]
+<images/Screenshots/WAP_1.png, id=1897, 959.83594pt x 371.88937pt>
+File: images/Screenshots/WAP_1.png Graphic file (type png)
+
+<use images/Screenshots/WAP_1.png>
+Package pdftex.def Info: images/Screenshots/WAP_1.png used on input line 363.
+(pdftex.def)             Requested size: 460.72124pt x 178.51054pt.
+
+<images/Screenshots/WAP_2.png, id=1898, 617.30624pt x 462.97969pt>
+File: images/Screenshots/WAP_2.png Graphic file (type png)
+
+<use images/Screenshots/WAP_2.png>
+Package pdftex.def Info: images/Screenshots/WAP_2.png used on input line 370.
+(pdftex.def)             Requested size: 460.72124pt x 345.55255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--373
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[123 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[124 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_2.png>]
+<images/Screenshots/WAP_3.png, id=1908, 565.36218pt x 427.5975pt>
+File: images/Screenshots/WAP_3.png Graphic file (type png)
+
+<use images/Screenshots/WAP_3.png>
+Package pdftex.def Info: images/Screenshots/WAP_3.png used on input line 381.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--384
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[125
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_3.png>]
+<images/Screenshots/WAP_5.png, id=1913, 602.25pt x 426.84468pt>
+File: images/Screenshots/WAP_5.png Graphic file (type png)
+
+<use images/Screenshots/WAP_5.png>
+Package pdftex.def Info: images/Screenshots/WAP_5.png used on input line 391.
+(pdftex.def)             Requested size: 460.72124pt x 326.54814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--394
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[126
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_5.png>]
+<images/Screenshots/WAP_6.png, id=1918, 602.25pt x 289.83281pt>
+File: images/Screenshots/WAP_6.png Graphic file (type png)
+
+<use images/Screenshots/WAP_6.png>
+Package pdftex.def Info: images/Screenshots/WAP_6.png used on input line 405.
+(pdftex.def)             Requested size: 460.72124pt x 221.73021pt.
+
+<images/Screenshots/WAP_7.png, id=1919, 602.25pt x 265.74281pt>
+File: images/Screenshots/WAP_7.png Graphic file (type png)
+
+<use images/Screenshots/WAP_7.png>
+Package pdftex.def Info: images/Screenshots/WAP_7.png used on input line 411.
+(pdftex.def)             Requested size: 460.72124pt x 203.30069pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--414
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[127
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_6.png> <C:/Users/Laurent/Dropbox/School/Master/Thes
+is/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_7.png>]
+<images/Screenshots/WAP_8.png, id=1927, 602.25pt x 426.84468pt>
+File: images/Screenshots/WAP_8.png Graphic file (type png)
+
+<use images/Screenshots/WAP_8.png>
+Package pdftex.def Info: images/Screenshots/WAP_8.png used on input line 427.
+(pdftex.def)             Requested size: 460.72124pt x 326.54814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--430
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[128
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_8.png>]
+<images/Screenshots/WAP_9.png, id=1934, 548.80031pt x 325.96782pt>
+File: images/Screenshots/WAP_9.png Graphic file (type png)
+
+<use images/Screenshots/WAP_9.png>
+Package pdftex.def Info: images/Screenshots/WAP_9.png used on input line 439.
+(pdftex.def)             Requested size: 322.50345pt x 191.55833pt.
+
+<images/Screenshots/WAP_11.png, id=1935, 539.01375pt x 292.84406pt>
+File: images/Screenshots/WAP_11.png Graphic file (type png)
+
+<use images/Screenshots/WAP_11.png>
+Package pdftex.def Info: images/Screenshots/WAP_11.png used on input line 445.
+(pdftex.def)             Requested size: 322.50345pt x 175.21625pt.
+
+<images/Screenshots/WAP_13.png, id=1936, 319.94531pt x 410.2828pt>
+File: images/Screenshots/WAP_13.png Graphic file (type png)
+
+<use images/Screenshots/WAP_13.png>
+Package pdftex.def Info: images/Screenshots/WAP_13.png used on input line 454.
+(pdftex.def)             Requested size: 319.94452pt x 410.2818pt.
+
+<images/Screenshots/WAP_14.png, id=1937, 219.82124pt x 59.47218pt>
+File: images/Screenshots/WAP_14.png Graphic file (type png)
+
+<use images/Screenshots/WAP_14.png>
+Package pdftex.def Info: images/Screenshots/WAP_14.png used on input line 460.
+(pdftex.def)             Requested size: 219.8207pt x 59.47203pt.
+
+<images/Screenshots/WAP_15.png, id=1938, 617.30624pt x 404.26031pt>
+File: images/Screenshots/WAP_15.png Graphic file (type png)
+
+<use images/Screenshots/WAP_15.png>
+Package pdftex.def Info: images/Screenshots/WAP_15.png used on input line 471.
+(pdftex.def)             Requested size: 414.6463pt x 271.55003pt.
+
+<images/Screenshots/WAP_16.png, id=1939, 560.0925pt x 596.98032pt>
+File: images/Screenshots/WAP_16.png Graphic file (type png)
+
+<use images/Screenshots/WAP_16.png>
+Package pdftex.def Info: images/Screenshots/WAP_16.png used on input line 479.
+(pdftex.def)             Requested size: 460.72124pt x 491.08469pt.
+
+<images/Screenshots/WAP_17.png, id=1940, 565.36218pt x 427.5975pt>
+File: images/Screenshots/WAP_17.png Graphic file (type png)
+
+<use images/Screenshots/WAP_17.png>
+Package pdftex.def Info: images/Screenshots/WAP_17.png used on input line 487.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+<images/Screenshots/WAP_18.png, id=1941, 565.36218pt x 238.64156pt>
+File: images/Screenshots/WAP_18.png Graphic file (type png)
+
+<use images/Screenshots/WAP_18.png>
+Package pdftex.def Info: images/Screenshots/WAP_18.png used on input line 495.
+(pdftex.def)             Requested size: 460.72124pt x 194.47475pt.
+
+<images/Screenshots/WAP_19.png, id=1942, 565.36218pt x 313.17pt>
+File: images/Screenshots/WAP_19.png Graphic file (type png)
+
+<use images/Screenshots/WAP_19.png>
+Package pdftex.def Info: images/Screenshots/WAP_19.png used on input line 503.
+(pdftex.def)             Requested size: 460.72124pt x 255.20978pt.
+
+Overfull \hbox (6.32799pt too wide) in paragraph at lines 433--506
+\OT1/cmr/m/n/12 The \OT1/cmtt/m/n/12 WCF Data Services 5.0 for OData V3 \OT1/cm
+r/m/n/12 can be down-loaded from this lo-ca-tion: [][]$\OT1/cmtt/m/n/12 https :
+$
+ []
+
+
+Overfull \hbox (24.70619pt too wide) in paragraph at lines 433--506
+$\OT1/cmtt/m/n/12 / / www . microsoft . com / en-[]us / download / details . as
+px ? id = 29306$[][]\OT1/cmr/m/n/12 . The in-stall-tion is straight-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--506
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[129
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_9.png> <C:/Users/Laurent/Dropbox/School/Master/Thes
+is/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_11.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[130 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[131 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_14.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_15.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[132 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_16.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[133 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_17.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[134 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_18.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_19.png>]
+<images/Screenshots/WAP_20.png, id=1976, 565.36218pt x 427.5975pt>
+File: images/Screenshots/WAP_20.png Graphic file (type png)
+
+<use images/Screenshots/WAP_20.png>
+Package pdftex.def Info: images/Screenshots/WAP_20.png used on input line 513.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+<images/Screenshots/WAP_21.png, id=1977, 565.36218pt x 427.5975pt>
+File: images/Screenshots/WAP_21.png Graphic file (type png)
+
+<use images/Screenshots/WAP_21.png>
+Package pdftex.def Info: images/Screenshots/WAP_21.png used on input line 519.
+(pdftex.def)             Requested size: 460.72124pt x 348.45952pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[135
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_20.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[136 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_21.png>]
+<images/Screenshots/WAP_22.png, id=1986, 461.47406pt x 349.305pt>
+File: images/Screenshots/WAP_22.png Graphic file (type png)
+
+<use images/Screenshots/WAP_22.png>
+Package pdftex.def Info: images/Screenshots/WAP_22.png used on input line 540.
+(pdftex.def)             Requested size: 460.72124pt x 348.73383pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--543
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[137
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_22.png>]
+<images/Screenshots/WAP_23.png, id=1991, 776.9025pt x 456.20438pt>
+File: images/Screenshots/WAP_23.png Graphic file (type png)
+
+<use images/Screenshots/WAP_23.png>
+Package pdftex.def Info: images/Screenshots/WAP_23.png used on input line 550.
+(pdftex.def)             Requested size: 460.72124pt x 270.5435pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--553
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[138
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_23.png>]
+<images/Screenshots/WAP_24.png, id=1996, 606.76688pt x 286.06876pt>
+File: images/Screenshots/WAP_24.png Graphic file (type png)
+
+<use images/Screenshots/WAP_24.png>
+Package pdftex.def Info: images/Screenshots/WAP_24.png used on input line 560.
+(pdftex.def)             Requested size: 460.72124pt x 217.21808pt.
+
+<images/Screenshots/WAP_25.png, id=1997, 410.2828pt x 121.95563pt>
+File: images/Screenshots/WAP_25.png Graphic file (type png)
+
+<use images/Screenshots/WAP_25.png>
+Package pdftex.def Info: images/Screenshots/WAP_25.png used on input line 569.
+(pdftex.def)             Requested size: 460.72124pt x 136.94662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Overfull \hbox (38.18915pt too wide) in paragraph at lines 556--575
+\OT1/cmr/m/n/12 tity of the Ap-pli-ca-tion Pools \OT1/cmtt/m/n/12 Admin\OT1/cmr
+/m/n/12 , \OT1/cmtt/m/n/12 Provider\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 Usage \OT
+1/cmr/m/n/12 and \OT1/cmtt/m/n/12 VMM \OT1/cmr/m/n/12 is set to \OT1/cmtt/m/n/1
+2 WIJNSTRAAT12$\OMS/cmsy/m/n/12 n$\OT1/cmtt/m/n/12 SPFService\OT1/cmr/m/n/12 . 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--575
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[139
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_24.png> <C:/Users/Laurent/Dropbox/School/Master/The
+sis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_25.png>]
+<images/Screenshots/WAP_26.png, id=2003, 319.94531pt x 249.18094pt>
+File: images/Screenshots/WAP_26.png Graphic file (type png)
+
+<use images/Screenshots/WAP_26.png>
+Package pdftex.def Info: images/Screenshots/WAP_26.png used on input line 584.
+(pdftex.def)             Requested size: 230.36061pt x 179.41393pt.
+
+<images/Screenshots/WAP_27.png, id=2004, 319.94531pt x 163.3603pt>
+File: images/Screenshots/WAP_27.png Graphic file (type png)
+
+<use images/Screenshots/WAP_27.png>
+Package pdftex.def Info: images/Screenshots/WAP_27.png used on input line 590.
+(pdftex.def)             Requested size: 230.36061pt x 117.62181pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--593
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--593
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[140 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_26.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_27.png>]
+<images/Screenshots/WAP_28.png, id=2012, 682.80093pt x 464.4853pt>
+File: images/Screenshots/WAP_28.png Graphic file (type png)
+
+<use images/Screenshots/WAP_28.png>
+Package pdftex.def Info: images/Screenshots/WAP_28.png used on input line 604.
+(pdftex.def)             Requested size: 460.72124pt x 313.41483pt.
+
+<images/Screenshots/WAP_29.png, id=2013, 526.96875pt x 194.22563pt>
+File: images/Screenshots/WAP_29.png Graphic file (type png)
+
+<use images/Screenshots/WAP_29.png>
+Package pdftex.def Info: images/Screenshots/WAP_29.png used on input line 610.
+(pdftex.def)             Requested size: 460.72124pt x 169.81659pt.
+
+<images/Screenshots/WAP_30.png, id=2014, 526.96875pt x 361.35pt>
+File: images/Screenshots/WAP_30.png Graphic file (type png)
+
+<use images/Screenshots/WAP_30.png>
+Package pdftex.def Info: images/Screenshots/WAP_30.png used on input line 616.
+(pdftex.def)             Requested size: 460.72124pt x 315.93787pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--619
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[141
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_28.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[142 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_29.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_30.png>]
+<images/Screenshots/WAP_31.png, id=2027, 740.7675pt x 510.40688pt>
+File: images/Screenshots/WAP_31.png Graphic file (type png)
+
+<use images/Screenshots/WAP_31.png>
+Package pdftex.def Info: images/Screenshots/WAP_31.png used on input line 629.
+(pdftex.def)             Requested size: 460.72124pt x 317.45366pt.
+
+<images/Screenshots/WAP_32.png, id=2028, 213.04594pt x 322.95656pt>
+File: images/Screenshots/WAP_32.png Graphic file (type png)
+
+<use images/Screenshots/WAP_32.png>
+Package pdftex.def Info: images/Screenshots/WAP_32.png used on input line 638.
+(pdftex.def)             Requested size: 213.04541pt x 322.95576pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--641
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[143
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_31.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[144 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_32.png>]
+<images/Screenshots/WAP_33.png, id=2039, 582.67688pt x 345.54094pt>
+File: images/Screenshots/WAP_33.png Graphic file (type png)
+
+<use images/Screenshots/WAP_33.png>
+Package pdftex.def Info: images/Screenshots/WAP_33.png used on input line 649.
+(pdftex.def)             Requested size: 460.72124pt x 273.22215pt.
+
+<images/Screenshots/WAP_34.png, id=2040, 1065.22969pt x 354.57469pt>
+File: images/Screenshots/WAP_34.png Graphic file (type png)
+
+<use images/Screenshots/WAP_34.png>
+Package pdftex.def Info: images/Screenshots/WAP_34.png used on input line 655.
+(pdftex.def)             Requested size: 460.72124pt x 153.35684pt.
+
+<images/Screenshots/WAP_35.png, id=2041, 659.46375pt x 487.8225pt>
+File: images/Screenshots/WAP_35.png Graphic file (type png)
+
+<use images/Screenshots/WAP_35.png>
+Package pdftex.def Info: images/Screenshots/WAP_35.png used on input line 665.
+(pdftex.def)             Requested size: 460.72124pt x 340.81839pt.
+
+<images/Screenshots/WAP_36.png, id=2042, 296.60812pt x 193.47281pt>
+File: images/Screenshots/WAP_36.png Graphic file (type png)
+
+<use images/Screenshots/WAP_36.png>
+Package pdftex.def Info: images/Screenshots/WAP_36.png used on input line 671.
+(pdftex.def)             Requested size: 296.60739pt x 193.47234pt.
+
+<images/Screenshots/WAP_37.png, id=2043, 391.4625pt x 162.6075pt>
+File: images/Screenshots/WAP_37.png Graphic file (type png)
+
+<use images/Screenshots/WAP_37.png>
+Package pdftex.def Info: images/Screenshots/WAP_37.png used on input line 677.
+(pdftex.def)             Requested size: 391.46153pt x 162.6071pt.
+
+<images/Screenshots/WAP_38.png, id=2044, 874.76813pt x 127.22531pt>
+File: images/Screenshots/WAP_38.png Graphic file (type png)
+
+<use images/Screenshots/WAP_38.png>
+Package pdftex.def Info: images/Screenshots/WAP_38.png used on input line 683.
+(pdftex.def)             Requested size: 460.72124pt x 67.00783pt.
+
+<images/Screenshots/WAP_39.png, id=2045, 871.00406pt x 557.08125pt>
+File: images/Screenshots/WAP_39.png Graphic file (type png)
+
+<use images/Screenshots/WAP_39.png>
+Package pdftex.def Info: images/Screenshots/WAP_39.png used on input line 692.
+(pdftex.def)             Requested size: 460.72124pt x 294.66513pt.
+
+<images/Screenshots/WAP_40.png, id=2046, 871.75688pt x 192.72pt>
+File: images/Screenshots/WAP_40.png Graphic file (type png)
+
+<use images/Screenshots/WAP_40.png>
+Package pdftex.def Info: images/Screenshots/WAP_40.png used on input line 698.
+(pdftex.def)             Requested size: 460.72124pt x 101.84998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Overfull \hbox (29.37842pt too wide) in paragraph at lines 644--701
+\OT1/cmr/m/n/12 Therefore, fill in the Vir-tual Ma-chine Man-ager server FQDN: 
+\OT1/cmtt/m/n/12 vmmtest.wijnstraat12.ddns.net\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--701
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[145
+
+ <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/bo
+ekje/images/Screenshots/WAP_33.png> <C:/Users/Laurent/Dropbox/School/Master/The
+sis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_34.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[146 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_35.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[147 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_36.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_37.png> <C:/
+Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecker/boekje/
+images/Screenshots/WAP_38.png>])
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\chapters\conclusions.tex
 
@@ -1232,8 +5656,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
-Chapter 4.
+[148 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Screenshots/WAP_39.png> <C:/Users/Laurent/Dropbox/School/Master
+/Thesis/Report/scriptiePeterDedecker/boekje/images/Screenshots/WAP_40.png>]
+Chapter 5.
 )
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\appendices\appendix.tex
@@ -1251,20 +5677,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25
+[149
 
 ]
 Appendix A.
-)
-(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
-kje\scriptie.bbl
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1.
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1.
+less on input line 19.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 19.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1272,9 +5700,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26
+[150
 
 ]
+Overfull \hbox (4.12871pt too wide) in paragraph at lines 25--40
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Network.png, id=2079, 983.17313pt x 813.0375pt>
+File: images/Network.png Graphic file (type png)
+
+<use images/Network.png>
+Package pdftex.def Info: images/Network.png used on input line 71.
+(pdftex.def)             Requested size: 983.17073pt x 813.03552pt.
+
+Overfull \hbox (2.71495pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 69--137
+
+ []
+
+
+(C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
+kje\scriptie.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[151]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[152]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[153 <C:/Users/Laurent/Dropbox/School/Master/Thesis/Report/scriptiePeterDedecke
+r/boekje/images/Network.png>]
 Underfull \hbox (badness 1122) in paragraph at lines 11--16
 []\OT1/cmr/m/n/12 Avis, C. E. (2013).  Vmware or mi-crosoft: Pro-tect-ing vm's 
 - agents or agent-
@@ -1321,18 +5797,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--50
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-[]\OT1/cmr/m/n/12 Grehl, F. (2015).  Vmware esxi re-lease and build num-ber his
--tory.
- []
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 63.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 64.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 64.
+less on input line 63.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1340,222 +5810,278 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27
+[154
 
 ]
-Overfull \hbox (52.36897pt too wide) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
+[]\OT1/cmr/m/n/12 Cummin (2010).  Pulled-pork - what is it about?
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 70--74
+\OT1/cmr/m/it/12 https://code.google.com/p/pulledpork/wiki/PulledPork\OT1/cmr/m
+/n/12 .  Re-trieved on Jan-uary 23,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
+[]\OT1/cmr/m/n/12 Grehl, F. (2015).  Vmware esxi re-lease and build num-ber his
+-tory.
+ []
+
+
+Overfull \hbox (52.36897pt too wide) in paragraph at lines 102--107
 []\OT1/cmr/m/n/12 House, M. (2006).  Hy-per-vi-sor.  \OT1/cmr/m/it/12 http://se
 archservervirtualization.techtarget.com/definition/hypervisor\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
 []\OT1/cmr/m/n/12 Intel (2015).  In-tel vir-tu-al-iza-tion tech-nol-ogy (in-tel
  vt).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
 \OT1/cmr/m/it/12 http://www.intel.com/content/www/us/en/virtualization/virtuali
 zation-
  []
 
 
-Overfull \hbox (22.62843pt too wide) in paragraph at lines 87--91
+Overfull \hbox (22.62843pt too wide) in paragraph at lines 123--127
 []\OT1/cmr/m/n/12 Jackson, I. (2012).  Xen net-work-ing.  \OT1/cmr/m/it/12 http
 ://wiki.xenproject.org/wiki/Xen[]Networking#Bridging\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 93--98
+Underfull \hbox (badness 3758) in paragraph at lines 129--134
 []\OT1/cmr/m/n/12 Jeong, S. (2013).  In-depth overview of x86 server vir-tu-al-
 iza-tion tech-nol-ogy.
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 93--98
+Underfull \hbox (badness 4859) in paragraph at lines 129--134
 \OT1/cmr/m/it/12 http://www.cubrid.org/blog/dev-platform/x86-server-virtualizat
 ion-technology/\OT1/cmr/m/n/12 .  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 []\OT1/cmr/m/n/12 Kassner, M. (2008).  10+ things you should know about rootk-i
 ts.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 \OT1/cmr/m/it/12 http://www.techrepublic.com/blog/10-things/10-plus-things-you-
 should-know-about-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155]
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 []\OT1/cmr/m/n/12 Kennedy, P. (2011).  Hyper-v net-work-ing and vir-tual switch
 es overview.
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 122--127
+Underfull \hbox (badness 2970) in paragraph at lines 158--163
 []\OT1/cmr/m/n/12 Kleyman, B. (2012).  Hy-per-vi-sor 101: Un-der-stand-ing the 
 vir-tu-al-iza-tion mar-
  []
 
 
-Overfull \hbox (60.39539pt too wide) in paragraph at lines 129--134
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
+[]\OT1/cmr/m/n/12 Koziol, J. (2003).  Dis-sect-ing snort - pre-pro-ces-sors.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
+\OT1/cmr/m/it/12 http://www.informit.com/articles/article.aspx?p=101148&seqNum=
+2\OT1/cmr/m/n/12 .  Re-trieved
+ []
+
+
+Overfull \hbox (60.39539pt too wide) in paragraph at lines 172--177
 []\OT1/cmr/m/n/12 Kurth, L. (2012).  Choice of tool-stacks.  \OT1/cmr/m/it/12 h
 ttp://wiki.xen.org/wiki/Choice[]of[]Toolstacks#Default[].2F[]XL\OT1/cmr/m/n/12 
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--141
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 []\OT1/cmr/m/n/12 Marcin (2011).  How se-cure are vir-tual ma-chines re-ally?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--141
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 \OT1/cmr/m/it/12 http://security.stackexchange.com/questions/3056/how-secure-ar
 e-virtual-machines-
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+[]\OT1/cmr/m/n/12 Maurer, T. (2014a).  Win-dows azure for your dat-a-cen-ter.
+ []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+[]\OT1/cmr/m/n/12 Maurer, T. (2014b).  Win-dows azure pack ar-chi-tec-ture.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--205
 []\OT1/cmr/m/n/12 Microsoft (2010).  Overview of hyper-v.  \OT1/cmr/m/it/12 htt
 ps://technet.microsoft.com/en-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 150--155
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
+[]\OT1/cmr/m/n/12 Microsoft (2011).  Hyper-v: Hyper-v should be the only en-abl
+ed role.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
+\OT1/cmr/m/it/12 https://technet.microsoft.com/en-us/library/ee941145(v=ws.10).
+aspx\OT1/cmr/m/n/12 .  Re-trieved
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[156]
+Underfull \hbox (badness 7221) in paragraph at lines 214--219
 []\OT1/cmr/m/n/12 Microsoft (2015a).  Ad-van-tages of hyper-v.  \OT1/cmr/m/it/1
 2 https://msdn.microsoft.com/en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--169
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 []\OT1/cmr/m/n/12 MSDN, M. (2012).  Vir-tual disk.  \OT1/cmr/m/it/12 https://ms
 dn.microsoft.com/en-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 164--169
+Underfull \hbox (badness 3907) in paragraph at lines 228--233
 \OT1/cmr/m/it/12 us/library/windows/desktop/dd323684%28v=vs.85%29.aspx\OT1/cmr/
 m/n/12 .  Re-trieved on March
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--176
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
 []\OT1/cmr/m/n/12 MSDN, M. (2015).  Hyper-v ar-chi-tec-ture.  \OT1/cmr/m/it/12 
 https://msdn.microsoft.com/en-
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 183--188
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
+[]\OT1/cmr/m/n/12 Osborne, R. (2013).  Win-dows server 2012 hyper-v best prac-t
+ices.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
+\OT1/cmr/m/it/12 http://blogs.technet.com/b/askpfeplat/archive/2013/03/10/windo
+ws-server-2012-hyper-
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 260--265
 []\OT1/cmr/m/n/12 Ott, D. (2009).  Un-der-stand-ing vt-d: In-tel vir-tu-al-iza-
 tion tech-nol-ogy for di-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 183--188
+Underfull \hbox (badness 2478) in paragraph at lines 260--265
 \OT1/cmr/m/n/12 rected i/o.  \OT1/cmr/m/it/12 https://software.intel.com/en-us/
 blogs/2009/06/25/understanding-vt-d-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 278--283
 \OT1/cmr/m/it/12 http://blogs.technet.com/b/kevinremde/archive/2012/10/20/31-da
 ys-of-our-favorite-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 278--283
 \OT1/cmr/m/it/12 things-extend-your-hyper-v-virtual-switch-in-windows-server-20
 12-part-20-of-31.aspx\OT1/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (55.62598pt too wide) in paragraph at lines 208--213
+Overfull \hbox (55.62598pt too wide) in paragraph at lines 285--290
 []\OT1/cmr/m/n/12 Rutkowska, J. (2006).  In-tro-duc-ing blue pill.  \OT1/cmr/m/
 it/12 http://theinvisiblethings.blogspot.be/2006/06/introducing-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[157]
+Underfull \hbox (badness 10000) in paragraph at lines 292--297
 []\OT1/cmr/m/n/12 Shinder, D. (2008).  10 things you should know about hyper-v.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+Underfull \hbox (badness 10000) in paragraph at lines 292--297
 \OT1/cmr/m/it/12 http://www.techrepublic.com/blog/10-things/10-things-you-shoul
 d-know-about-hyper-v/\OT1/cmr/m/n/12 .
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 235--240
+Underfull \hbox (badness 10000) in paragraph at lines 318--323
 []\OT1/cmr/m/n/12 Smith, J. E. and Nair, R. (2008).  The ar-chi-tec-ture of vir
 -tual ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--240
+Underfull \hbox (badness 10000) in paragraph at lines 318--323
 \OT1/cmr/m/n/12 chines.  \OT1/cmr/m/it/12 http://www.ittc.ku.edu/$\OMS/cmsy/m/n
 /12 $\OT1/cmr/m/it/12 kulkarni/teaching/archieve/EECS800-Spring-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--247
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
 []\OT1/cmr/m/n/12 Smyth, N. (2009).  An overview of the hyper-v ar-chi-tec-ture
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--247
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
 \OT1/cmr/m/it/12 http://www.virtuatopia.com/index.php/An[]Overview[]of[]the[]Hy
 per-V[]Architecture\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 262--266
+Underfull \hbox (badness 3058) in paragraph at lines 345--349
 []\OT1/cmr/m/n/12 Technet, M. (2015a).  Con-fig-ure net-work-ing.  \OT1/cmr/m/i
 t/12 https://technet.microsoft.com/en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--293
+Underfull \hbox (badness 10000) in paragraph at lines 371--376
 []\OT1/cmr/m/n/12 Vangie, B. (2007).  Un-der-stand-ing hardware-assisted vir-tu
 -al-iza-tion.
  []
 
 
-Overfull \hbox (50.46265pt too wide) in paragraph at lines 288--293
+Overfull \hbox (50.46265pt too wide) in paragraph at lines 371--376
 \OT1/cmr/m/it/12 http://www.webopedia.com/DidYouKnow/Computer[]Science/hardware
 []assisted[]virtualization.asp\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
-[]\OT1/cmr/m/n/12 Vanover, R. (2013).  In-tro-duc-tion to vir-tu-al-iza-tion, a
-b-strac-tion is key.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
-\OT1/cmr/m/it/12 http://www.techrepublic.com/blog/data-center/introduction-to-v
-irtualization-
  []
 
 
@@ -1564,32 +6090,56 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
-Overfull \hbox (43.88818pt too wide) in paragraph at lines 309--314
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
+[]\OT1/cmr/m/n/12 Vanover, R. (2013).  In-tro-duc-tion to vir-tu-al-iza-tion, a
+b-strac-tion is key.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
+\OT1/cmr/m/it/12 http://www.techrepublic.com/blog/data-center/introduction-to-v
+irtualization-
+ []
+
+
+Overfull \hbox (43.88818pt too wide) in paragraph at lines 398--403
 []\OT1/cmr/m/n/12 VMware (2015b).  Vir-tu-al-iza-tion ad-van-tages.  \OT1/cmr/m
 /it/12 http://www.vmware.com/virtualization/virtualization-
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 316--321
+Underfull \hbox (badness 7133) in paragraph at lines 405--410
 []\OT1/cmr/m/n/12 Vogel, D. (2014).  The ben-e-fits and chal-lenges of vir-tual
  ma-chine host-
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 316--321
+Underfull \hbox (badness 2591) in paragraph at lines 405--410
 \OT1/cmr/m/n/12 ing.  \OT1/cmr/m/it/12 http://www.datapipe.com/blog/2014/04/23/
 benefits-challenges-virtual-machine-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--327
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
+[]\OT1/cmr/m/n/12 Vredevoort, H. (2013).  Win-dows azure pack wiki.  \OT1/cmr/m
+/it/12 http://www.hyper-
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 412--417
+\OT1/cmr/m/it/12 v.nu/archives/hvredevoort/2013/11/windows-azure-pack-wiki/\OT1
+/cmr/m/n/12 .  Re-trieved on May
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--423
 []\OT1/cmr/m/n/12 Wang, Z. J. (2009).  How to re-cover vir-tu-al-ized x86 in-st
 ruc-tions.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--327
+Underfull \hbox (badness 10000) in paragraph at lines 419--423
 \OT1/cmr/m/it/12 https://www.virusbtn.com/conference/vb2009/abstracts/Wang.xml\
 OT1/cmr/m/n/12 .  Re-trieved on
  []
@@ -1601,51 +6151,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+[159]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\scriptie.aux
 (C:\Users\Laurent\Dropbox\School\Master\Thesis\Report\scriptiePeterDedecker\boe
 kje\overview.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `scriptie.out' has not changed.
-(rerunfilecheck)             Checksum: 4FA8D773CE1CFA49E3A2645C8A8CBE70;2564.
+(rerunfilecheck)             Checksum: F88077792D8DCE574418F6A79BE033DD;4735.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 11225 strings out of 493921
- 164741 string characters out of 3147277
- 246858 words of memory out of 3000000
- 14127 multiletter control sequences out of 15000+200000
- 15726 words of font info for 58 fonts, out of 3000000 for 9000
- 846 hyphenation exceptions out of 8191
- 39i,18n,51p,1092b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 12529 strings out of 493921
+ 192701 string characters out of 3147276
+ 260991 words of memory out of 3000000
+ 14874 multiletter control sequences out of 15000+200000
+ 16422 words of font info for 61 fonts, out of 3000000 for 9000
+ 845 hyphenation exceptions out of 8191
+ 39i,18n,53p,1092b,580s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Laurent\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-si12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on scriptie.pdf (41 pages, 1108045 bytes).
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
+times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on scriptie.pdf (177 pages, 6074164 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2297 PDF objects out of 2487 (max. 8388607)
+ 541 named destinations out of 1000 (max. 500000)
+ 1422 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,7 +20,11 @@
 \usepackage{longtable}
 \usepackage{pdfpages}  % pdf pagina's importeren
 
+
 \usepackage[square]{natbib}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
 
 
 
@@ -36,7 +40,7 @@
     urlcolor=black
 }    % Om hyperlinks te hebben in het pdfdocument.
 \newcommand{\command}[1]{\lstinline[basicstyle=\tt]{#1}\xspace} %Voor commando's
-\hyphenation{he-den-daag-se ap-pa-ra-tuur Meet-re-sul-ta-ten hand-o-ver-tijd ho-ge-snel-heids-trein}
+\hyphenation{interface knowledge publish options}
 
 % Het bibliografisch opmaak bestand.
 %\bibliographystyle{bibliodutch}
@@ -124,8 +128,8 @@
 \input{./chapters/introduction}
 \input{./chapters/virtualnetworks}
 \input{./chapters/security}
+\input{./chapters/cloud}
 \input{./chapters/conclusions}
-
 
 \appendix
 %\input{s-sourcecode}

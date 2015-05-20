@@ -19,5 +19,172 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Logical Volume Management}}{19}{figure.2.10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces VM based rootkit}}{22}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The network setup used to investigate packet sniffing.}}{25}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces PowerShell commands to configure port monitoring. The vNICs of \texttt {Server 1} and \texttt {Server 2} are set as `source', whereas the vNIC of monitoringVM is set as `destination'.}}{26}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Traffic captured on the Hyper-V virtual network prior to executing the ICMP Ping requests.}}{27}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ICMP Ping traffic captured by the monitoring VM. Besides this, some DNS traffic can be observed as well.}}{28}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ICMP Ping traffic from \texttt {Server 1} (192.168.1.51) to the Hyper-V host (192.168.1.6). Note that other `external' traffic is captured as well. In this case, traffic from \texttt {Server1} to a wireless access point.}}{29}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ICMP Ping traffic captured from a Xen VM to a Hyper-V VM, in this case \texttt {Server1}.}}{30}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ICMP Ping traffic captured from a Xen VM to the Hyper-V host.}}{31}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Confirmation of the correct installation of Snort.}}{36}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The sniffing / capturing interface \texttt {eth1} runs in promiscious mode and captures all the packets on the network. No IP address has been set (as it should be).}}{36}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Confirmation of the network settings.}}{37}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces We are working on the 192.168.1.0/24 network, but by means of testing, we have setup Snort to listen on the /16 subnet (255.255.0.0). As it will turn out, this will \textbf {not} affect the correct working of Snort. So one could randomly choose a value (8, 16 or 24).}}{38}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces After PulledPort has run, one can notice that 19 new rules have been downloaded and added to the ruleset of Snort.}}{40}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Everything is running fine.}}{40}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Ping traffic gets picked up by Snort.}}{41}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \texttt {tcpdump} confirms that the Snort VM is receiving traffic other than the traffic destinated for the VM. This proves the fact that the Snort VM is actually sniffing traffic.}}{42}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Traffic originating from a Xen VM to the Xen host is captured by the Snort VM as well as traffic originating from a Xen VM to a Hyper-V VM.}}{43}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Traffic from the Hyper-V host (the hypervisor where the Snort VM is installed on) to a Xen VM is captured by Snort.}}{43}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Traffic between the two hypervisors is picked up as well.}}{43}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Traffic originating from outside either virtual network to any virtual network and traffic destinated to a target outside any virtual network is detected by Snort.}}{44}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Internal traffic between Xen VM's is intercepted by Snort.}}{44}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces The NMAP command as executed on the webserver (atlas, 192.168.1.11).}}{46}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Basic, unfragmented NMAP scanning of a Hyper-V VM (192.168.1.51). The SnortVM has the IP address of 192.168.1.50. Snort reports each attempt to scan a particular port number.}}{47}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces The NMAP stealth, SYN packet command as executed on the webserver (atlas, 192.168.1.11).}}{47}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces The scan for running services from the stealth scan is detected by Snort.}}{48}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces However, this Snort alert indicates that a host reassembling a fragment datagram cannot complete the reassembly due to missing fragments whitin the time limit (60s by default). However, I'm not sure whether this is Snort warning for a fragmented / stealth scan.}}{48}{figure.3.26}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces ICMP ping with large packet size is detected by Snort.}}{48}{figure.3.27}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces OS detection from a NMAP scan is also detected by Snort.}}{49}{figure.3.28}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces The vulnerable webpage before the attack. It displays the string value that is provided in the ``name'' parameter in the URL.}}{50}{figure.3.29}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces The script in action\ldots .}}{51}{figure.3.30}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces The script is successfully injected into the PHP page.}}{51}{figure.3.31}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Fortunately, Snort detects the XSS attack without the need for adding additional rules.}}{52}{figure.3.32}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces To prevent XSS attacks from happening, one can change ``alert'' to ``drop'' in the rules that triggers the alert.}}{52}{figure.3.33}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Persons table in the test database running on MySQL 5.6 populated with 3 records.}}{53}{figure.3.34}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Persons table in the test database running on MySQL 5.6 populated with 3 records.}}{54}{figure.3.35}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Persons table in the test database running on MySQL 5.6 populated with 3 records.}}{54}{figure.3.36}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces SQL injection attack in action with all the results displayed on the webpage.}}{55}{figure.3.37}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Snort alerts for a possible SQL injection.}}{55}{figure.3.38}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces The triggering rule. Once again, one could change ``alert'' to ``drop'' in order to prevent the SQL injection from happening.}}{55}{figure.3.39}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces The source code of the webpage. Note the ``shell\_exec'' statement.}}{56}{figure.3.40}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces A command injection attack has just been launched and the results of executing the \texttt {ipconfig /all} command are displayed on the webpage.}}{57}{figure.3.41}
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Output of the \texttt {netstat -a} command displayed on the web page.}}{57}{figure.3.42}
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Snort alerting for command injections.}}{58}{figure.3.43}
+\contentsline {figure}{\numberline {3.44}{\ignorespaces First, I created a rule to actually detect FTP traffic as I plan to DOS attack the FTP server is a later stage. The starting of the FTP service and some FTP traffic are detected by Snort.}}{59}{figure.3.44}
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Successful FTP logins are also detected by Snort (however, this is not a thread and can be disabled by simply comment the rule that triggered the alert.}}{59}{figure.3.45}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Attempting to login as root.}}{59}{figure.3.46}
+\contentsline {figure}{\numberline {3.47}{\ignorespaces FTP root access is successfully detected.}}{60}{figure.3.47}
+\contentsline {figure}{\numberline {3.48}{\ignorespaces The command to attack the FTP server as seen in Metasploit.}}{60}{figure.3.48}
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Snort reported the various attacks.}}{61}{figure.3.49}
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Appearantly, someone tried to SSH scan my Xen server\ldots . This was fortunately detected by Snort.}}{61}{figure.3.50}
+\contentsline {figure}{\numberline {3.51}{\ignorespaces An example of \texttt {hosts.allow}. In this example, only computer with IP address of 192.168.1.2 and 192.168.1.2 are allowed to connect to the server through SSH.}}{62}{figure.3.51}
+\contentsline {figure}{\numberline {3.52}{\ignorespaces An example of \texttt {hosts.deny}. This file is used in combination with \texttt {hosts.allow} and indicates that only IP addresses of 192.168.1.2 and 192.168.1.40 are allowed to connect to the server through SSH and that all other IP addresses have their access denied.}}{62}{figure.3.52}
+\contentsline {figure}{\numberline {3.53}{\ignorespaces Metasploit is scanning the network for databases...}}{63}{figure.3.53}
+\contentsline {figure}{\numberline {3.54}{\ignorespaces ... and this is detected by Snort.}}{63}{figure.3.54}
+\contentsline {figure}{\numberline {3.55}{\ignorespaces This is captured by Snort.}}{64}{figure.3.55}
+\contentsline {figure}{\numberline {3.56}{\ignorespaces Also logging in a root is detected by Snort.}}{64}{figure.3.56}
+\contentsline {figure}{\numberline {3.57}{\ignorespaces The plugin to create the malicious payload.}}{65}{figure.3.57}
+\contentsline {figure}{\numberline {3.58}{\ignorespaces The actual creation of the malicious payload. The ``LHOST'' stands for Local HOST and indicates that the trojan makes a connection with my (attacking) computer via port 4444.}}{65}{figure.3.58}
+\contentsline {figure}{\numberline {3.59}{\ignorespaces Preparing the listener for when an unsuspicious user clicks on the file.}}{65}{figure.3.59}
+\contentsline {figure}{\numberline {3.60}{\ignorespaces A user clicks on the file and a connection between my computer and the victim is established.}}{66}{figure.3.60}
+\contentsline {figure}{\numberline {3.61}{\ignorespaces Now I can for example browse the hard disk drive of the victim's computer\ldots }}{67}{figure.3.61}
+\contentsline {figure}{\numberline {3.62}{\ignorespaces \ldots or obtain some network information to prepare for subsequent attacks.}}{68}{figure.3.62}
+\contentsline {figure}{\numberline {3.63}{\ignorespaces Fortunately, this is detected by Snort.}}{68}{figure.3.63}
+\contentsline {figure}{\numberline {3.64}{\ignorespaces The FTP server receives a lot of login attemps per second. This way, we hope to flood it and eventually make it go offline.}}{69}{figure.3.64}
+\contentsline {figure}{\numberline {3.65}{\ignorespaces Snort reacts.}}{70}{figure.3.65}
+\contentsline {figure}{\numberline {3.66}{\ignorespaces The DOS attack on the webserver in action\ldots }}{70}{figure.3.66}
+\contentsline {figure}{\numberline {3.67}{\ignorespaces Fortunately, this is detected by Snort.}}{71}{figure.3.67}
+\contentsline {figure}{\numberline {3.68}{\ignorespaces The apt updating process is seen as a thread by Snort.}}{72}{figure.3.68}
+\contentsline {figure}{\numberline {3.69}{\ignorespaces Metasploit's updating process is known by Snort\ldots }}{72}{figure.3.69}
+\contentsline {figure}{\numberline {3.70}{\ignorespaces Downloading an .exe file from the Internet is also seen and reported by Snort.}}{72}{figure.3.70}
+\contentsline {figure}{\numberline {3.71}{\ignorespaces Network infrastructure as of the beginning of research question number two}}{74}{figure.3.71}
+\contentsline {figure}{\numberline {3.72}{\ignorespaces Mounting the virtual hard disk in Windows Server 2012 R2 using Windows Explorer \ldots }}{75}{figure.3.72}
+\contentsline {figure}{\numberline {3.73}{\ignorespaces \ldots after which the partitions become visible (browseable).}}{76}{figure.3.73}
+\contentsline {figure}{\numberline {3.74}{\ignorespaces Creation of the malicious Trojan.}}{77}{figure.3.74}
+\contentsline {figure}{\numberline {3.75}{\ignorespaces Transferred the Trojan to the host by means of a shared folder.}}{77}{figure.3.75}
+\contentsline {figure}{\numberline {3.76}{\ignorespaces Once the VM has started, it connects automatically to my computer and I can browse the files, even when the hard drive is in use and not mountable anymore in Windows Explorer.}}{78}{figure.3.76}
+\contentsline {figure}{\numberline {3.77}{\ignorespaces An example of the directory listing of the compromised VM.}}{78}{figure.3.77}
+\contentsline {figure}{\numberline {3.78}{\ignorespaces The two disks of the two OS's visible in Windows Explorer.}}{79}{figure.3.78}
+\contentsline {figure}{\numberline {3.79}{\ignorespaces The trojan is inserted in the other OS of the dualboot system.}}{79}{figure.3.79}
+\contentsline {figure}{\numberline {3.80}{\ignorespaces The Trojan has connected to our computer.}}{80}{figure.3.80}
+\contentsline {figure}{\numberline {3.81}{\ignorespaces The parameters are set up correctly and the module is runned\ldots }}{80}{figure.3.81}
+\contentsline {figure}{\numberline {3.82}{\ignorespaces \ldots resulting in a BSOD.}}{81}{figure.3.82}
+\contentsline {figure}{\numberline {3.83}{\ignorespaces The BitLocker settings in the group policy of Windows Server 2012 R2.}}{83}{figure.3.83}
+\contentsline {figure}{\numberline {3.84}{\ignorespaces A 256 bit encryption is chosen for maximum protection.}}{83}{figure.3.84}
+\contentsline {figure}{\numberline {3.85}{\ignorespaces Also non-system drives can be secured.}}{84}{figure.3.85}
+\contentsline {figure}{\numberline {3.86}{\ignorespaces This setting forces the requirement of entering a password when the VM is started.}}{84}{figure.3.86}
+\contentsline {figure}{\numberline {3.87}{\ignorespaces When the settings are set, the VM is rebooted and ``BitLocker drive encryption'' is selected in the Configuration Panel. Since we want to encrypt the entire VM (and therefore preventing the disk from mounting), the ``C:'' drive is selected.}}{85}{figure.3.87}
+\contentsline {figure}{\numberline {3.88}{\ignorespaces When the encryption of the system drive has finished, the VM is rebooted and a password is prompted when one wants to boot the VM.}}{86}{figure.3.88}
+\contentsline {figure}{\numberline {3.89}{\ignorespaces Without knowing the password, it is impossible to login\ldots . Of course, this prompting for a password at boot time can be disabled in the Group Policy Editor.}}{87}{figure.3.89}
+\contentsline {figure}{\numberline {3.90}{\ignorespaces Now we try to mount the virtual hard drive, but a password is required to do so.}}{87}{figure.3.90}
+\contentsline {figure}{\numberline {3.91}{\ignorespaces Only when the correct password is supplied, one is able to access the files on the virtual disk.}}{88}{figure.3.91}
+\contentsline {figure}{\numberline {3.92}{\ignorespaces Read - and write speeds according to ``CrystalDiskMark'' before the drive has been encrypted by BitLocker. Note that I use an actual system (virtual) disk.}}{89}{figure.3.92}
+\contentsline {figure}{\numberline {3.93}{\ignorespaces Here I use HDTune Pro to perform the benchmarking.}}{90}{figure.3.93}
+\contentsline {figure}{\numberline {3.94}{\ignorespaces These are the results after the system drive has been encrypted using BitLocker. The sequential read speed drops from 117 MB/s to 88 MB/s and the sequential write speed drops from 34 MB/s to 30 MB/s.}}{91}{figure.3.94}
+\contentsline {figure}{\numberline {3.95}{\ignorespaces Also HDTune confirms the speed drop: from 100 MB/s on average to 91 MB/s on average.}}{92}{figure.3.95}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces configuring static IP settings.}}{96}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Setting an appropriate server name and joining the server to the AD domain.}}{97}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Confirmation of successfully joining the AD domain.}}{97}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The overview screen of the local server with a proper server name set, the server being joined to the domain, the firewall and remote desktop both being enabled. Also, a static IP has been set and the IE Enhanced Security Configuration has been disabled. Now we are ready to install Microsoft SQL Server 2012 SP2.}}{98}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \texttt {netfx3} has been installed successfully.}}{98}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Extract the image using WinRAR and run setup.exe.}}{99}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces In the left pane, select ``Installation'' and subsequently in the right pane, select ``New SQL Server stand-alone configuration''.}}{99}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Setup files are being installed.}}{100}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Checking additional prerequisites.}}{101}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Selection of the features.}}{102}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Windows Authentication Mode is chosen and the SQL administrators are added.}}{103}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Setup has completed successfully.}}{104}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Making the service account for DKM.}}{105}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The properties of the service account.}}{106}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Create a new Object.}}{107}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Creation of the container.}}{107}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Creation of the container.}}{108}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Configuration of the permissions for VMMDKM.}}{109}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Adding the VMMService account to the local administrators group.}}{109}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Login into SQL Server Management Studio using Windows Authentication.}}{110}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Creation of a new login.}}{111}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Selecting the VMMService account.}}{112}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Confirmation.}}{112}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Download the Windows ADK for Windows 8.1.}}{113}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Install the ADK on the current compute, since VMM will also be installed on this local computer.}}{114}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Install only the Deployment Tools and Windows PE.}}{115}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Extract the files and double click on \texttt {setup.exe}.}}{116}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces The main screen of Virtual Machine Manager 2012 R2 is shown.}}{116}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Select the VMM management server.}}{117}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Choose the installation location.}}{118}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Configuration of the database.}}{119}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces .}}{120}{figure.4.32}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Specify the location of the shared libraries.}}{121}{figure.4.33}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Overview of the configuration settings. Click \texttt {Install}.}}{122}{figure.4.34}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Overview screen of the local server showing the begin situation.}}{123}{figure.4.35}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Authentication Mode: Mixed Mode.}}{124}{figure.4.36}
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Install only the VMM console.}}{125}{figure.4.37}
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Select the \texttt {Web Server (IIS)} Server Role.}}{126}{figure.4.38}
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Select \texttt {HTTP Activation}.}}{127}{figure.4.39}
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Select \texttt {Management OData IIS Extension}.}}{127}{figure.4.40}
+\contentsline {figure}{\numberline {4.41}{\ignorespaces .}}{128}{figure.4.41}
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Download and install WCF Data Services for OData V3.}}{129}{figure.4.42}
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Download and install ASP.NET MVC 4.}}{129}{figure.4.43}
+\contentsline {figure}{\numberline {4.44}{\ignorespaces The properties of the domain account \texttt {SPFService}.}}{130}{figure.4.44}
+\contentsline {figure}{\numberline {4.45}{\ignorespaces The four global security groups have been made.}}{131}{figure.4.45}
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Create a self-singed certificate.}}{131}{figure.4.46}
+\contentsline {figure}{\numberline {4.47}{\ignorespaces SPF can be found on the SC Orchestrator installation media.}}{132}{figure.4.47}
+\contentsline {figure}{\numberline {4.48}{\ignorespaces The prerequisites are checked. When everything is installed, setup can be continued.}}{133}{figure.4.48}
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Configuration of the database. A newly created instance can be used, as well as the instance created earlier when setting up the VMM virtual machine.}}{134}{figure.4.49}
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Certificate selection. Choose the self-singed certificate created earlier.}}{134}{figure.4.50}
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Configuration of the \texttt {Admin} virtual directory of IIS. Choose the \texttt {SPFAdmin} and the \texttt {SPFService} service account, both created earlier in the pre-setup process.}}{135}{figure.4.51}
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Configuration of the \texttt {Provider} virtual directory of IIS. Choose the \texttt {SPFProvider} and the \texttt {SPFService} service account, both created earlier in the pre-setup process.}}{136}{figure.4.52}
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Add the \texttt {SPFService} account to the local groups created by the Service Provider Foundation installation.}}{137}{figure.4.53}
+\contentsline {figure}{\numberline {4.54}{\ignorespaces The \texttt {SPFService} account needs administrative permissions in Virtual Machine Manager.}}{138}{figure.4.54}
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Adding administrative permissions to the \texttt {SPFService} account.}}{139}{figure.4.55}
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Verifying the correct settings of the Application Pools.}}{139}{figure.4.56}
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Creation of the local \texttt {SPF\_REG} account.}}{140}{figure.4.57}
+\contentsline {figure}{\numberline {4.58}{\ignorespaces The account has been added to the four local groups created by the SPF installer.}}{140}{figure.4.58}
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Selection of the WAP Portal and API Express.}}{141}{figure.4.59}
+\contentsline {figure}{\numberline {4.60}{\ignorespaces Click \texttt {Next}.}}{142}{figure.4.60}
+\contentsline {figure}{\numberline {4.61}{\ignorespaces The installation has completed successfully. Click \texttt {Finish}.}}{142}{figure.4.61}
+\contentsline {figure}{\numberline {4.62}{\ignorespaces Configuration of the database access for use with WAP.}}{143}{figure.4.62}
+\contentsline {figure}{\numberline {4.63}{\ignorespaces Setup has completed successfully.}}{144}{figure.4.63}
+\contentsline {figure}{\numberline {4.64}{\ignorespaces Login using the local administrator account.}}{145}{figure.4.64}
+\contentsline {figure}{\numberline {4.65}{\ignorespaces The main screen of WAP.}}{145}{figure.4.65}
+\contentsline {figure}{\numberline {4.66}{\ignorespaces Before setting up a VM cloud, the SPF Endpoint needs to be registered.}}{146}{figure.4.66}
+\contentsline {figure}{\numberline {4.67}{\ignorespaces In case of failure, reset the password for the \texttt {SPF\_REG} account.}}{147}{figure.4.67}
+\contentsline {figure}{\numberline {4.68}{\ignorespaces Restart the Web Server \ldots }}{147}{figure.4.68}
+\contentsline {figure}{\numberline {4.69}{\ignorespaces \ldots and everything should work fine now.}}{147}{figure.4.69}
+\contentsline {figure}{\numberline {4.70}{\ignorespaces Connect to the VMM server.}}{148}{figure.4.70}
+\contentsline {figure}{\numberline {4.71}{\ignorespaces The cloud is now visible in \texttt {VM clouds}.}}{148}{figure.4.71}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The network setup}}{153}{figure.A.1}

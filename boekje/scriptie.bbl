@@ -48,6 +48,36 @@ Burger, T. (2012).
   https://software.intel.com/en-us/articles/intel-virtualization-technology-for-directed-io-vt-d-enhancing-intel-platforms-for-efficient-virtualization-of-io-devices}.
 \newblock Retrieved on March 7, 2015.
 
+\bibitem[Cisco, 2015a]{Preprocessor1}
+Cisco (2015a).
+\newblock Preprocessors.
+\newblock {\em http://manual.snort.org/node17.html}.
+\newblock Retrieved on January 23, 2015.
+
+\bibitem[Cisco, 2015b]{SnortRules}
+Cisco (2015b).
+\newblock Rules headers.
+\newblock {\em http://manual.snort.org/node29.html}.
+\newblock Retrieved on January 23, 2015.
+
+\bibitem[Cisco, 2015c]{SnortLicense}
+Cisco (2015c).
+\newblock Snort license.
+\newblock {\em https://www.snort.org/licensel}.
+\newblock Retrieved on January 23, 2015.
+
+\bibitem[Cummin, 2010]{PP}
+Cummin (2010).
+\newblock Pulledpork - what is it about?
+\newblock {\em https://code.google.com/p/pulledpork/wiki/PulledPork}.
+\newblock Retrieved on January 23, 2015.
+
+\bibitem[Firnsy, 2010]{Barnyard1}
+Firnsy (2010).
+\newblock Barnyard2.
+\newblock {\em https://github.com/firnsy/barnyard2}.
+\newblock Retrieved on January 23, 2015.
+
 \bibitem[Garrison, 2011]{VHD3}
 Garrison, J. (2011).
 \newblock What is logical volume management and how do you enable it in ubuntu?
@@ -61,6 +91,12 @@ Grehl, F. (2015).
 \newblock {\em
   http://www.virten.net/vmware/esxi-release-build-number-history/\#esxi3.5}.
 \newblock Retrieved on February 27, 2015.
+
+\bibitem[Halliday, 2012]{Squert}
+Halliday, P. (2012).
+\newblock the squertproject.
+\newblock {\em http://www.squertproject.org/}.
+\newblock Retrieved on January 23, 2015.
 
 \bibitem[House, 2006]{Techtarget}
 House, M. (2006).
@@ -125,6 +161,13 @@ Kleyman, B. (2012).
   http://www.datacenterknowledge.com/archives/2012/08/01/hypervisor-101-a-look-hypervisor-market/}.
 \newblock Retrieved on February 26, 2015.
 
+\bibitem[Koziol, 2003]{Preprocessor2}
+Koziol, J. (2003).
+\newblock Dissecting snort - preprocessors.
+\newblock {\em
+  http://www.informit.com/articles/article.aspx?p=101148\&seqNum=2}.
+\newblock Retrieved on January 23, 2015.
+
 \bibitem[Kurth, 2012]{Xen2}
 Kurth, L. (2012).
 \newblock Choice of toolstacks.
@@ -139,12 +182,33 @@ Marcin (2011).
   http://security.stackexchange.com/questions/3056/how-secure-are-virtual-machines-really-false-sense-of-security}.
 \newblock Retrieved on February 26, 2015.
 
+\bibitem[Maurer, 2014a]{WAP3}
+Maurer, T. (2014a).
+\newblock Windows azure for your datacenter.
+\newblock {\em
+  http://www.thomasmaurer.ch/2014/01/windows-azure-for-your-datacenter/}.
+\newblock Retrieved on May 12, 2015.
+
+\bibitem[Maurer, 2014b]{WAP2}
+Maurer, T. (2014b).
+\newblock Windows azure pack architecture.
+\newblock {\em
+  http://www.thomasmaurer.ch/2014/03/windows-azure-pack-architecture/}.
+\newblock Retrieved on May 12, 2015.
+
 \bibitem[Microsoft, 2010]{HyperVOverview}
 Microsoft (2010).
 \newblock Overview of hyper-v.
 \newblock {\em
   https://technet.microsoft.com/en-us/library/cc816638\%28WS.10\%29.aspx}.
 \newblock Retrieved on February 27, 2015.
+
+\bibitem[Microsoft, 2011]{Best2}
+Microsoft (2011).
+\newblock Hyper-v: Hyper-v should be the only enabled role.
+\newblock {\em
+  https://technet.microsoft.com/en-us/library/ee941145(v=ws.10).aspx}.
+\newblock Retrieved on April 27, 2015.
 
 \bibitem[Microsoft, 2015a]{Microsoft}
 Microsoft (2015a).
@@ -174,10 +238,23 @@ MSDN, M. (2015).
   https://msdn.microsoft.com/en-us/library/cc768520\%28v=bts.10\%29.aspx}.
 \newblock Retrieved on February 27, 2015.
 
+\bibitem[Northrop, 2013]{Barnyard2}
+Northrop, E. (2013).
+\newblock Barnyard2.
+\newblock {\em http://www.forensicswiki.org/wiki/Barnyard2}.
+\newblock Retrieved on January 23, 2015.
+
 \bibitem[Oracle, 2015]{VirtualBox}
 Oracle (2015).
 \newblock {\em VirtualBox User Manual}, volume~6.
 \newblock Oracle.
+
+\bibitem[Osborne, 2013]{Best1}
+Osborne, R. (2013).
+\newblock Windows server 2012 hyper-v best practices.
+\newblock {\em
+  http://blogs.technet.com/b/askpfeplat/archive/2013/03/10/windows-server-2012-hyper-v-best-practices-in-easy-checklist-form.aspx/}.
+\newblock Retrieved on April 27, 2015.
 
 \bibitem[Ott, 2009]{VTD}
 Ott, D. (2009).
@@ -217,6 +294,12 @@ Shinder, D. (2008).
 \newblock {\em
   http://www.techrepublic.com/blog/10-things/10-things-you-should-know-about-hyper-v/}.
 \newblock Retrieved on February 27, 2015.
+
+\bibitem[Sid, 2014]{OSSEC}
+Sid, D.~B. (2014).
+\newblock Ossec - home.
+\newblock {\em http://www.ossec.net}.
+\newblock Retrieved on January 23, 2015.
 
 \bibitem[Siebert, 2006]{Techtarget2}
 Siebert, E. (2006).
@@ -298,6 +381,12 @@ Vanover, R. (2013).
   http://www.techrepublic.com/blog/data-center/introduction-to-virtualization-abstraction-is-key/}.
 \newblock Retrieved on February 24, 2015.
 
+\bibitem[Visscher, 2014]{Sguil}
+Visscher, B. (2014).
+\newblock Sguil: The analyst console for network security monitoring.
+\newblock {\em http://bammv.github.io/sguil/index.html}.
+\newblock Retrieved on January 23, 2015.
+
 \bibitem[VMware, 2015a]{Benefit4}
 VMware (2015a).
 \newblock Security and virtual machines.
@@ -319,10 +408,23 @@ Vogel, D. (2014).
   http://www.datapipe.com/blog/2014/04/23/benefits-challenges-virtual-machine-hosting/}.
 \newblock Retrieved on February 25, 2015.
 
+\bibitem[Vredevoort, 2013]{WAP1}
+Vredevoort, H. (2013).
+\newblock Windows azure pack wiki.
+\newblock {\em
+  http://www.hyper-v.nu/archives/hvredevoort/2013/11/windows-azure-pack-wiki/}.
+\newblock Retrieved on May 12, 2015.
+
 \bibitem[Wang, 2009]{Crossover}
 Wang, Z.~J. (2009).
 \newblock How to recover virtualized x86 instructions.
 \newblock {\em https://www.virusbtn.com/conference/vb2009/abstracts/Wang.xml}.
 \newblock Retrieved on February 26, 2015.
+
+\bibitem[Webber, 2015]{Snorby}
+Webber, D. (2015).
+\newblock Snorby, all about simplicity.
+\newblock {\em https://www.snorby.org/}.
+\newblock Retrieved on January 23, 2015.
 
 \end{thebibliography}

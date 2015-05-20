@@ -1,4 +1,4 @@
-\chapter{Security}
+\chapter{Security aspects}
 \label{chap:security}
 \emph{In this chapter, some security issues concerning virtual machines and virtualization in general are covered, which will be the basis for further research in this MA thesis.}
 
@@ -54,5 +54,1032 @@ Attention has to be payed when installing antimalware solutions on the host OS. 
 
 This means that one has to be very careful when installing antimalware solutions and in particulary take care of exclusions.
 
-\section{Unknown security issues}
-This is what the thesis is about.
+\section{Sniffing on virtual networks}
+
+Another potential security hazard is the possibility to snif a virtual network interface to run a network packet analyzer such as Wireshark to capture all the traffic intented for that host and reconstruct the protocols.
+
+An even bigger security risk is that an intruder could possibly hack a virtual switch to set up a trunk port that is able to see the network traffic on the other ports and redirect this traffic to the virtual network interface the intruder is listening on. \\ \\
+Actually, the fact that both Hyper-V and Xen are using virtual \textbf{switches} rather than virtual \textbf{hubs} is a first layer of protection.
+
+Indeed, a switch only forwards the traffic to the intented host - since only one host per segment is present, whereas a hub sends an incoming packet to all ports - since multiple hosts can reside on one network segment. \\ \\
+In the upcoming sections, the possibilities of packet sniffing on Hyper-V and Xen virtual networks will be examined as well as measures to prevent packet sniffing, thus enhancing the security.
+
+\subsection{First research question: sniffing a virtual NIC}
+
+Following the above mentioned security risks, the first research question is thus \emph{\textbf{if it is possible to snif a virtual network interface and run a network packet analyzer on it?}} and additionally \emph{\textbf{is it possible to hack a virtual switch to capture all the traffic?}} \\ \\
+For the purpose of investigating this research question, a test lab has been created. The reader is invited to take a look at figure \ref{fig:network} for a schematic logical overview of the network used in the investigation. Appendix \ref{app:network} contains a detailed description of the hardware used. \\ \\
+Before hacking the virtual switch, we must first determine if it is possible at all to snif a virtual network interface - that is, running a network packet analyzer on it?
+
+\subsubsection{Setting up the environment and testing}
+
+Consider the following environment: one Hyper-V host running three VM's. Two of these VM's are ordinary VM's and one is a so-called \texttt{Monitoring VM}, which runs a packet analyser - or any other sniffing / capturing software. \\
+Each VM has one virtual NIC and are connected to the external switch of Hyper-V. This means that each VM has access to the lab network and is thus acting as a normal physical device. The picture below represents the reader with a visual representation of the network.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Network_10.png}
+    \captionof{figure}{The network setup used to investigate packet sniffing.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+After doing some research, it turns out that Hyper-V 2012 has built-in port mirroring. Using this feature, one can set a source interface and a destination interface. All traffic coming from and to the source interface is then copied to the destination interface. (NOG ONDERZOEKEN OF DIT KAN GEWIJZIGD WORDEN BIJ EEN REEDS DRAAIENDE VM) \\ 
+Any person with Administrator privileges is able to change the monitoring mode of a VM (that is, a vNIC). This way, when a hacker has gained Administrator access, he could create a new VM with port mirroring configured, or configure port mirroring on an existing VM and install a packet sniffer on it to reconstruct protocols. \\
+The figure below illustrates the necessary commands to setup port mirroring on Hyper-V. The first three commands are straightforward, but the last two commands are neccesary to forward traffic that arrives at the Hyper-V external switch interface to the virtual switch. Without these rules, any traffic arriving at the Hyper-V host will `stop' at the host and thus won't be picked up by the \texttt{Monitoring VM}.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_13.png}
+    \captionof{figure}{PowerShell commands to configure port monitoring. The vNICs of \texttt{Server 1} and \texttt{Server 2} are set as `source', whereas the vNIC of monitoringVM is set as `destination'.}
+\label{fig:network}
+\end{minipage}
+\paragraph{First stage: inter-VM testing}
+After executing the commands, the setup was tested. Wireshark was installed on the \texttt{Monitoring VM} and I pinged from \texttt{Server 1} to \texttt{Server 2} and watched how Wireshark captured all the ICMP Ping requests and replies - not destinated to the \texttt{Monitoring VM}. So, \textbf{yes}, the vNIC on the \texttt{Monitoring VM} captured traffic between VM's (inter - VM) on the same physical host and thus act as a sniffer.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_6.png}
+    \captionof{figure}{Traffic captured on the Hyper-V virtual network prior to executing the ICMP Ping requests.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_8.png}
+    \captionof{figure}{ICMP Ping traffic captured by the monitoring VM. Besides this, some DNS traffic can be observed as well.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\paragraph{Second stage: external network testing}
+So far, only internal traffic between VM's has been tested for sniffing. I also wanted to test if this \texttt{Monitoring VM} is able to capture traffic originating from the Xen server or any other client on the network.
+Therefore, extra ICMP Ping commands have been executed from a random Xen VM to the Hyper-V host as well as to either VM running on this Hyper-V host as illustrated in the following figures.
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_10.png}
+    \captionof{figure}{ICMP Ping traffic from \texttt{Server 1} (192.168.1.51) to the Hyper-V host (192.168.1.6). Note that other `external' traffic is captured as well. In this case, traffic from \texttt{Server1} to a wireless access point.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_11.png}
+    \captionof{figure}{ICMP Ping traffic captured from a Xen VM to a Hyper-V VM, in this case \texttt{Server1}.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{HyperV_12.png}
+    \captionof{figure}{ICMP Ping traffic captured from a Xen VM to the Hyper-V host.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+Traffic capturing capabilities has been demonstrated with various configurations:
+\begin{itemize}
+\item Inter-VM between two Hyper-V VM's.
+\item From a Xen VM to the Hyper-V host.
+\item From a Xen VM to a Hyper-V VM.
+\item From a Hyper-V VM to the Hyper-V host.
+\end{itemize}
+As illustrated, it is perfectly possible for an intruder to snif network traffic between VM's. Now that has the possibilities of packet sniffing / capturing has been shown, an important question raises: how can one prevent packet sniffing on virtual NIC's?
+
+
+
+\subsection{Penetration testing on virtual networks}
+
+Now that the possibilities of packet sniffing on virtual networks have been proven, it is time to perform some penetration testing on these virtual networks. Since packet sniffing is possible, we should be able to run an intrusion detection system (IDS) on either virtual network to intercept and prevent those penetration attacks. For this purpose, the Snort IDS will be used. \\ \\
+The upcoming sections will provide the reader a brief description of the Snort IDS and its components as well as an overview of installing Snort. Next, the actual penetration testing, countermeasures and techniques to prevent certain types of network attacks will be discussed. 
+
+\subsubsection{Snort}
+
+Based on the different types of classifications of intrusion detection systems, one could classify Snort as a ``Signature-based Network Intrusion Detection and Prevention System''. \\
+
+Additionally, Snort is open-source and capable of performing real-time network traffic analysis, as well as packet logging on IP networks. It consists of two major parts: the detection engine and the rules that are used to describe traffic that has to be collected or blocked. Furthermore, there exist two types of rules: rules that are available to all users (the so-called ``Community Rules'') and private, proprietary (paid) rules that are developed by SourceFire, the company behind Snort \citep{SnortLicense}. Addionally, so-called ``Registered rules'' are also available and are situated between the GPL rules and the proprietary rules. \\
+
+I will make use of the freely available community rules combined with the ``Registered rules''. As one will notice, it will turn out that these rules are rather basic and need to be extende as well as additional rules have to be added in order to make Snort a viable IDS. This is allowed, since Snort uses the GPL license and we will make extensive use of this privilege to freely modify the rules. As previously mentioned, ``Registered rules'' have also been included in addition to the basic GPL rules. In order to do so, an account on the Snort website has been made and the rules were downloaded using \texttt{wget}. \\ 
+
+As mentioned in the above paragraphs, Snort uses pre-defined rules to detect malicious activity on the network. One could compare it with the way antivirus programs work: any traffic that Snort picks up is matched against the database of rules and when a match has been found, an alert is raised.
+
+\subsubsection{Preprocessors}
+
+Preprocessors extend the functionality of Snort by examining packets or by modifying them so that Snort can properly interpret the packets. \citep{Preprocessor1}.
+
+Some attacks cannot be detected by normal signatures (rules), so ``examine'' preprocessors detect suspicious behaviour. So one could say this type of preprocessor is used to detect non-signature-based attacks \citep{Preprocessor1}. 
+
+The othe type of preprocessor is used to normalize traffic, so that Snort can match signatures in an accurate way.\\ \\
+Preprocessor code is run before the detection engine is called. Additionally, each packet captured by Snort is cycled through every preprocessor, in order to discover even more attacks \citep{Preprocessor2}.
+
+\subsubsection{PulledPork}
+
+PulledPork (PP) is Perl script that will automatically download new Snort rules (signatures) in the background. Of course, one can always run PP directly at the command line to force the downloading of new rules \citep{PP}.
+
+The downloaded rules are stored in a file called ``download.rules''.
+
+\subsubsection{Barnyard2}
+
+Barnyard2 is an interpreter for Snort binary output files. It is available under the GPL license and therefore, free to use \citep{Barnyard1}.
+
+Barnyard2 allows Snort to write data to the disk in an efficient way. The parsing of binary data into different formats is handed over to a seperate process. Because Barnyard2 takes away some work, Snort will not miss any network traffic \citep{Barnyard2}.
+
+\subsubsection{Packet capturing}
+
+Packet capturing is accomplished by a program called \texttt{netsniff-ng}. Via a network interface set to promiscious mode, netsniff-ng captures all the traffic the sensors (explained later) of Ubuntu see and store as much of the information as possible. I.e., until the hard drive is full. Of course, a build-in mechanism to purge old data when the amount of data reaches a pre-defined level existss.
+
+One could compare packet capturing with a video camera, that precisely sees and registers who, when and where was. The video camera is netsniff-ng and the persons walking around are the packets. All this is registered in a database.
+
+Additionally, a video camera is also capable of registering of what people took with them. This is also the case with packet capturing: the payload of the packets can be examined as well as the destination address of the packets.
+
+\subsubsection{NIDS and HIDS}
+
+Network-based (NIDS) and host-based intrusion detection systems (HIDS) analyse the traffic that netsniff-ng captures and will log any malicious packets as well as sending alerts. There exist multiple IDSs:\\
+\textbf{NIDS}
+\begin{itemize}
+\item Signature-based NIDS: Snort or Suricata. In this paper, Snort will be used.
+\item Anomaly-based NIDS: Bro IDS. The definition of anomaly-based IDSs has been covered in the previous chapters and since Snort will be used, we will not dive deeper into Bro.
+\end{itemize}
+\textbf{HIDS}
+\begin{itemize}
+\item OSSEC: an open-source HIDS for Windows, Linux and Mac OS X. Instead of monitoring an entire network, OSSEC monitores only one specific host on suspicious activity \citep{OSSEC}.
+\end{itemize}
+
+\subsubsection{Analysis tools}
+
+With Snort / Suricata data and the packet capturing of \texttt{netsniff-ng}, there is a vast amount of data available for the analist. To help managing the alerts generated by Snort or Suricata, some handy tools have been installed, including:
+
+\begin{itemize}
+\item \textbf{Sguil}: a network security analysis tool providing an intuitive GUI that provides access to realtime events and raw packet capturing data. The client is written in tcl/tk. In the client, one can view alerts of Snort, Bro, Suricata and OSSEC \citep{Sguil}.
+
+The alerts are stored in a seperate MySQL database and this allows a user to query alerts by type, IP address or port, for example.
+
+With Sguil, it is also possible to categorize alerts. This can be done either manually or automatically. The next chapter will provide more details of how this can be achieved \citep{Sguil}.
+
+\item \textbf{Squert}: a web application that is used to view and query event data for the Sguil database. One could see it as a web interface for the Sguil database. It is neither ment to be a real-time interface, nor a replacement for Sguil, but more to bring additional visualization options to Sguil \citep{Squert}.
+
+\item \textbf{Snorby}: a RoR (Ruby On Rails) web application that allows one to visualize Snort and Suricata alerts as well as perform queries on them. For example, listing the most active IDS signatures, most active sensors, \ldots. While all this can also be done with the Sguil database, Snorby offers a web interface instead of manually querying the Sguil database. In contrast to Sguil and Squert, Snorby uses his own, seperate database \citep{Snorby}.
+\end{itemize}
+
+\subsubsection{Running Snort IDS on a virtual network}
+
+With Snort, Snorby and Sguil installed and configured, we can start using it. Of course, in order to be sure whether Snort indeed picks up all the traffic that flows through the network, we must first test it. The figure below illustrates the correct installation of Snort.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Snort.jpg}
+    \captionof{figure}{Confirmation of the correct installation of Snort.}
+\label{fig:network}
+\end{minipage}
+
+\subsubsection{First things first: basic configuration of Snort}
+
+First of all, we need to verify the network settings. Therefore, the \texttt{ifconfig} command is run. In addition, we also have a look at  \texttt{/etc/network/interfaces} to confirm the settings.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth]{VM_network.png}
+    \captionof{figure}{The sniffing / capturing interface \texttt{eth1} runs in promiscious mode and captures all the packets on the network. No IP address has been set (as it should be).}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_network_3.png}
+    \captionof{figure}{Confirmation of the network settings.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+After having verified that the network settings are correct, we can configure some of the basic options of Snort. This includes network settings and is performed in ``snort.conf''. For example, the network segments on which Snort has to listen have to be configured.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth]{VM_network_2.png}
+    \captionof{figure}{We are working on the 192.168.1.0/24 network, but by means of testing, we have setup Snort to listen on the /16 subnet (255.255.0.0). As it will turn out, this will \textbf{not} affect the correct working of Snort. So one could randomly choose a value (8, 16 or 24).}
+\label{fig:network}
+\end{minipage}
+
+\subsubsection{Configuring Snort rules}
+\label{subsec:rules}
+Throughout this paper, we will frequently modify and add Snort rules (signatures), so an explanation of how a Snort rule is composed is given first. \\ \\
+Most Snort rules are written in a single line. When a rules needs to span multiple lines, this can always be performed by adding a backslash ($\backslash$) at the end of the line.
+
+Snort rules consist of two main parts: the rule header and multiple rule options. The header contains the rule's action method, protocol, source IP, source port, destination IP and destination port.
+
+The rule options contains alert messages, signature ids, revisions and many more options. \\ \\
+Below is the general layout of a Snort rule. \\ \\
+\textbf{action protocol sourceIP sourcePort $\rightarrow$ destinationIP destinationPort (OPTIONS);} \\ \\
+To clear things up, an example is provided. \\
+Consider following rule:
+
+\textbf{alert icmp any any $\rightarrow$ any any (msg:``ICMP ping"; sid:100002;)} \\ \\
+This could be read as follows: ``alert all ICMP traffic from any source IP, from any port to any destination IP and to any destination port. Alert as ``ICMP ping'' and the unique id of the rule is 100002.''. \\ \\
+Action can be one the following \citep{SnortRules}:
+\begin{itemize}
+\item alert: an alert is generated after which the packet is logged.
+\item log: just log the packet, do not generate any alerts.
+\item pass: ignore the packet.
+\item drop: log and block the packet.
+\item reject: log and block the packet and sent a TCP reset or ICMP port unreachable when TCP or UDP is used, respectively.
+\end{itemize}
+Protocol can be one the following \citep{SnortRules}:
+\begin{itemize}
+\item TCP
+\item UDP
+\item ICMP
+\item IP
+\end{itemize}
+The IP address can be an ordinary IP address or an address/CIDR combination. For example, 192.168.1.0/24 would mean the block of addresses from 192.168.1.1 till 192.168.1.254.
+
+\subsubsection{Updating the rules using PulledPork}
+
+After installing Snort, it is a good practise to update the ruleset, just as one may do when one has just installed an antivirus program. This is done using the \texttt{update-rules} command.
+
+One could make a cron-job of this command to run it, for example, every day at 3 am.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{VM_Pulledport_rules.png}
+    \captionof{figure}{After PulledPort has run, one can notice that 19 new rules have been downloaded and added to the ruleset of Snort.}
+\label{fig:network}
+\end{minipage}
+
+\subsubsection{Confirming that Snort is actually working}
+
+To confirm that all the agents (sensors) and the servers are running, the following command is executed: \texttt{sostat -quick}. Which yields following output:
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_OK.png}
+    \captionof{figure}{Everything is running fine.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+However, we cannot assume that, just by installing and configuring Snort - where everything \textbf{seems} to be working, that everything \textbf{is} actually working. To convince myself, a simple Snort rule has been made to detect and alert for any ICMP Ping traffic on the network: \\
+
+\textbf{alert icmp any any $\rightarrow$ any any (msg:``ICMP Ping traffic"; sid:100002;)} \\ \\
+When pinging from the attack machine to the victim, Snort indeed picks up the ICMP traffic and fires a corresponding alert, as well as storing the information in the database. This can be seen in the figure below.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_3_2.png}
+    \captionof{figure}{Ping traffic gets picked up by Snort.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+This can also be confirmed by executing \texttt{tcpdump} on the Snort VM:
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_1.png}
+    \captionof{figure}{\texttt{tcpdump} confirms that the Snort VM is receiving traffic other than the traffic destinated for the VM. This proves the fact that the Snort VM is actually sniffing traffic.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+However, Snort is only picking up intrusions on the Hyper-V network including the Hyper-V host. Thus, intrusions on the Xen virtual network are not detected, because those VM's resides on a seperate virtual switch. \\
+
+So I wanted a way to also detect malicious activity on the Hyper-V network with the SnortVM running on a seperate virtual network. \\
+
+Since I'm using in-kernel bridging for the virtual Xen switch, my initial idea was to snif the bridged interface (since all traffic - also between VM's - passes through this interface) and copy all the packets to another, physical interface set in promiscious mode. From there, I could then forward the packets to the Hyper-V network. \\ \\
+However, it is not possible to forward packets on an interface that is in promiscious mode. So instead of making a copy of the bridged interface, the only solution was to make a copy of the packets on each virtual interface connected to the vSwitch.
+
+This solution works fine as illustrated in the following screenshots.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_4.png}
+    \captionof{figure}{Traffic originating from a Xen VM to the Xen host is captured by the Snort VM as well as traffic originating from a Xen VM to a Hyper-V VM.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_5.png}
+    \captionof{figure}{Traffic from the Hyper-V host (the hypervisor where the Snort VM is installed on) to a Xen VM is captured by Snort.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_6.png}
+    \captionof{figure}{Traffic between the two hypervisors is picked up as well.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_17.png}
+    \captionof{figure}{Traffic originating from outside either virtual network to any virtual network and traffic destinated to a target outside any virtual network is detected by Snort.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Snort_8.png}
+    \captionof{figure}{Internal traffic between Xen VM's is intercepted by Snort.}
+\label{fig:network}
+\end{minipage}
+$\;$ \\ \\
+\textbf{So to summarize, the following is possible / is achieved regarding intrusions:}
+\begin{itemize}
+\item Detecting intrusions between two VM's running on the Hyper-V virtual network.
+\item Detecting intrusions between a VM running on the Hyper-V virtual network and the Xen virtual network and vice versa.
+\item Detecting intrusions between two VM's running on the Xen virtual network.
+\item Detecting intrusions between the Xen host and Hyper-V host and vice versa.
+\end{itemize}
+
+\subsection{Actual penetration testing}
+
+In order to make sure that Snort is actually protecting our network against numerous and various anomalies, it is essential to test Snort against various attacks. Based on how Snort reacts on the attacks, we will configure Snort, that is, modifying the rules (signatures), add rules if no alerts are raised or removing some of the rules that are triggering false alerts. Not only can one adjust the rules, also thresholds and limitations of how many alerts each rule is allowed to generate can be set. \\ \\
+Of course, false positives will also be generated and the art of configuring Snort is minimizing the amount of false positives and maximizing the generation of alerts of real threads.
+
+\subsubsection{What types of attacks will be performed?}
+
+Various types of network and host attacks will be executed on the network in order to test Snort's reaction. These types include:
+\begin{itemize}
+\item Port scans
+	\begin{itemize}
+	\item Basic port scan
+	\item Advanced port scan
+	\end{itemize}
+\item Webserver attacks
+	\begin{itemize}
+	\item XSS
+	\item SQL Injection
+	\item Command Injection
+	\end{itemize}
+\item FTP server attacks
+	\begin{itemize}
+	\item FTP root access
+	\item FTP malicious payloads
+	\item Various other FTP attacks
+	\end{itemize}
+\item SSH attacks
+\item Database attacks
+	\begin{itemize}
+	\item Database scanning
+	\item Login attempts (including root access)
+	\item Bruteforce attempts
+	\end{itemize}
+\item Trojan and virus injection / infection
+\item DOS attacks
+\end{itemize}
+
+\subsubsection{Motivation for the choice of the attacks}
+
+Why were these nine types of attacks chosen? The attacks are based on the actual services provided by some servers in my own home network. I have for example a web server running, an FTP server, a Samba server and a MySQL server. All those servers are running on Linux and to remotely login on those servers, SSH is frequently used.
+
+So that is why webserver, FTP and SMB attacks will be performed. In addition, each hacker starts by scanning the network for running computers and once a computer has been found, a port scan is executed to scan the host for open ports which the hacker can exploit.
+
+\subsubsection{Testing methods}
+
+In order to avoid a too high level of artificial server setup, all the attacks are performed on production servers. Before doing so, the correct functioning of those services is controlled and when it is confirmed that the service / server that is about to be attacked functioning properly, the actual attack is performed.
+
+After the attack has been performed, Sguil is checked for realtime events. Remember that Snort writes its ``findings'' to the Sguil database. When the attack is listed, it means that Snort has successfully picked up / recognized the attack
+
+Also the DOS attack is performed on two production servers being the FTP server and the webserver. However, the Trojan infection is performed on my own laptop, not a real production server. So I will be infecting my own computer from a VM acting as the attacker.
+
+\subsubsection{NMAP scanning}
+
+Once the attacker knows which hosts are online, he can start querying a host to determine what services are running on the host or what types of protocols the host supports. This is the first phase in a network attack: the reconnaissance phase. 
+
+That is why first of all, some NMAP scanning was performed for reconnaisance of open ports and running services of the target hosts. I started with an unfragmented scan on a Hyper-V VM from the webserver, which has NMAP installed.
+
+\paragraph{Unfragmented packets}
+First \ldots.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{Ping_Unfragmented_putty.png}
+    \captionof{figure}{The NMAP command as executed on the webserver (atlas, 192.168.1.11).}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Ping_Unfragmented.png}
+    \captionof{figure}{Basic, unfragmented NMAP scanning of a Hyper-V VM (192.168.1.51). The SnortVM has the IP address of 192.168.1.50. Snort reports each attempt to scan a particular port number.}
+\end{minipage}
+\paragraph{Fragmented SYN packets}
+Next, I performed an NMAP scan with fragmented packets, which splits up the TCP header over several tiny packets to trick / fool IDSs and firewalls. This way, an attacker hopes to evade packet filters. \\ \\
+The NMAP command executed is the following: \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{Ping_Fragmented_2_putty.png}
+    \captionof{figure}{The NMAP stealth, SYN packet command as executed on the webserver (atlas, 192.168.1.11).}
+\end{minipage}
+$\;$ \\ \\
+The stealth, fragmented ICMP ping scan is not detected by Snort. However, Snort did detect the scan for running services as can be seen in the following figure. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Ping_Fragmented.png}
+    \captionof{figure}{The scan for running services from the stealth scan is detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Ping_Fragmented_2.png}
+    \captionof{figure}{However, this Snort alert indicates that a host reassembling a fragment datagram cannot complete the reassembly due to missing fragments whitin the time limit (60s by default). However, I'm not sure whether this is Snort warning for a fragmented / stealth scan.}
+\end{minipage}
+$\;$ \\ \\
+Then I performed an ICMP ping to the Hyper-V VM (192.168.1.51) with a size of 1000 bytes. This gets detected by Snort right away. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Ping_Large.png}
+    \captionof{figure}{ICMP ping with large packet size is detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{OS_Detection.png}
+    \captionof{figure}{OS detection from a NMAP scan is also detected by Snort.}
+\end{minipage}
+
+\subsubsection{Preventing port scanning with Snort}
+
+In section \ref{subsec:rules}, an overview of the different action types of Snort rules has been supplied. One of these actions is \texttt{drop}, which causes the matched packets to be blocked. Therefore, different network attacks including port scanning can be prevented.
+
+As an example, consider the following rule: \\
+\textbf{alert icmp any any $\rightarrow$ any any (msg:``ICMP ping"; sid:100002;)} \\
+This rule will generate alerts when ICMP Ping packets are intercepted. However, when changing \texttt{alert} to \texttt{drop}, ICMP ping packets are filtered out of (from) the network and thus preventing port scanning. \\ \\
+This process can be repeated for every rule that generated alerts. Of course, in order to improve security, one can also configure the firewall to restrict the effectivity of port scans. Most effective way to do so is denying all traffic and only allowing the traffic needed to access the internal services. Also, tracking malicious activity over time and configuring rules to cut off attacks when a treshold is reached. For example, when 50 consecutive ICMP Ping requests are detected.
+
+\subsubsection{Webserver attacks}
+
+This section will cover some common webserver attacks, such as XSS attacks, SQL injections and command injections.
+
+\subsubsection{Cross-site scripting (XSS) attack}
+
+Sometimes, one can abuse an URL of a webpage to inject JavaScript code into the page. This is called a cross-site scripting (XSS) vulnerability. If a hacker gives the modified URL to someone else and he can get this person to click on the modified links, a hacker / attacker can achieve the following: change the content of the page, steal cookie values, gain access to the user's history, \ldots. This is why we want to detect this. \\ \\
+Therefore, I made a vulnerable PHP webpage myself, to exploit an XSS atack. The page takes the ``name'' parameter from the URL and displays it on the page. But this makes is ideal for an XSS attack.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth]{VM_XSS_3_Better.png}
+    \captionof{figure}{The vulnerable webpage before the attack. It displays the string value that is provided in the ``name'' parameter in the URL.}
+\end{minipage}
+$\;$ \\ \\
+Then, the following script is injected into the page: \\
+\textbf{$<$script$>$alert('XSS vulnerability')$<$/script$>$}. \\
+Which yields following output:
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_XSS_2_Better.png}
+    \captionof{figure}{The script in action\ldots.}
+\end{minipage}
+$\;$ \\ \\
+As one can observe, the script is indeed successfully injected into the webpage.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_XSS_1_Better.png}
+    \captionof{figure}{The script is successfully injected into the PHP page.}
+\end{minipage}
+$\;$ \\ \\
+How did Snort react? Snort detects this anomaly right away, without the need for adding extra rules, as can be seen in the following screenshot. However, one can also avoid this attack from happening by changing the ``action'' method in the rule from ``alert'' to ``drop''.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_XSS_5.png}
+    \captionof{figure}{Fortunately, Snort detects the XSS attack without the need for adding additional rules.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_XSS_6.png}
+    \captionof{figure}{To prevent XSS attacks from happening, one can change ``alert'' to ``drop'' in the rules that triggers the alert.}
+\end{minipage}
+
+\subsubsection{SQL Injection}
+
+SQL Injection is an attack technique in which users can insert SQL commands as strings that are passed to an SQL server, via a webpage input \citep{SQLInj}. It can be used to read sensitive data from a database or to perform administrative tasks to the database, for example: shutting down the DBMS. \\ \\
+To detect such attacks, a custom PHP webpage has been created that is vulnerable to an SQL injection attack. \\ \\
+To provide the reader a general overview, the entire content of the MySQL ``Persons'' table is displayed on the webpage. Obviously, in reality, nothing is displayed when a user first loads the page. But the content is displayed for information purposes.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{VM_SQL_1.png}
+    \captionof{figure}{Persons table in the test database running on MySQL 5.6 populated with 3 records.}
+\end{minipage}
+$\;$ \\ \\
+Then, an input textfield is created where the user can enter the firstname of a person he is looking for. The source code is listed below:
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_SQL_3.png}
+    \captionof{figure}{Persons table in the test database running on MySQL 5.6 populated with 3 records.}
+\end{minipage}
+$\;$ \\ \\
+The next screenshot shows an example of how a POST request can look like. In this example, the user has entered the search string ``Laurent".
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_SQL_2.png}
+    \captionof{figure}{Persons table in the test database running on MySQL 5.6 populated with 3 records.}
+\end{minipage}
+$\;$ \\ \\
+Of course, when the textfield is empty and the query is submitted, nothing is displayed. But when an attacker enters the string ``OR $1=1$'', he gets to see all the information stored in the Persons table. This is called SQL injection based on $1=1$ is always true. It is an attempt to make a query succeed no matter what.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{VM_SQL_4.png}
+    \captionof{figure}{SQL injection attack in action with all the results displayed on the webpage.}
+\end{minipage}
+$\;$ \\ \\
+And did Snort react on this type of webserver attack? Yes it did, as can be seen in the following screenshots:
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_SQL_8.png}
+    \captionof{figure}{Snort alerts for a possible SQL injection.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_SQL_9.png}
+    \captionof{figure}{The triggering rule. Once again, one could change ``alert'' to ``drop'' in order to prevent the SQL injection from happening.}
+\end{minipage}
+
+\subsubsection{Command injection}
+
+A command injection attack is an attack in which a hacker tries to execute commands on the host operating system using a vulnerable (web)application. \\ \\
+To simulate this attack, I created a vulnerable PHP webpage that returns the content of a file that the user requested. It does this by executing the ``type'' command on the host machine. But as one may have guessed, an attacker can also execute a command this way.  \\ \\
+Following screenshot displays the source code of the webpage.$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_Command_2.png}
+    \captionof{figure}{The source code of the webpage. Note the ``shell\_exec'' statement.}
+\end{minipage}
+$\;$ \\ \\
+An actual example of command injection is listed below. Here, the ``ipconfig'' command is executed on the target host and all information about the network interfaces is returned.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_Command_1.png}
+    \captionof{figure}{A command injection attack has just been launched and the results of executing the \texttt{ipconfig /all} command are displayed on the webpage.}
+\end{minipage}
+$\;$ \\ \\
+Another example is provided below: when supplying the \texttt{netstat} command to the URL, an intruder can also obtain information about which ports are currently opened.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_Command_4.png}
+    \captionof{figure}{Output of the \texttt{netstat -a} command displayed on the web page.}
+\end{minipage}
+$\;$ \\ \\
+How did Snort react on this thread? Well, at first, i did NOT. Meaning that there are some extra rules needed.
+Especially, we want to look for executable files that are passed in the URL, because an attackers usually wants to execute programs (commands) on the host machine. However, it turned out that Snort actually already had a rule that alerts for this kind of attack, but it turned out this rule had been disabled. So enabling the rule was sufficient to make Snort alert on command injection attacks.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{VM_Command_3.png}
+    \captionof{figure}{Snort alerting for command injections.}
+\end{minipage}
+$\;$ \\ \\
+Again, changing the action from \texttt{alert} to \texttt{drop} will cause Snort to block these packets and thus preventing this command injection from happening.
+
+\subsubsection{FTP server attacks}
+
+Next, some attacks on the FTP server \texttt{vsftpd} running on a Xen virtual network are executed to see how Snort reacts on this. The FTP server has IP address 192.168.1.16 and runs on a Xen VM called ``farbauti''. The client computer has the IP address 192.168.1.40 and runs a Windows 7 Professional 64 edition. All FTP attacks were launched using FileZilla Client 3.10. \\
+The following will be tested: attempting to login as root user and attempting to attack the FTP server with various attack methods, e.g.: command overflow, format string, \ldots. With a \textbf{command overflow}, a cracker sents overly long commands to the FTP server (that is, with a high amout of buffer content). This leaves the hacker the opportunity to execute code on the FTP server. \\
+When the \textbf{\texttt{printf-style} format specifier} is sent as argument to some FTP commands, it causes data on the stack to be overwritten. This is because the FTP server trying to process data containing such format strings, eventually resulting in the possibility to execute code on the FTP server. \\
+Remember that the Snort VM runs on the Hyper-V network and has IP address of 192.168.1.50. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_1.png}
+    \captionof{figure}{First, I created a rule to actually detect FTP traffic as I plan to DOS attack the FTP server is a later stage. The starting of the FTP service and some FTP traffic are detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_2.png}
+    \captionof{figure}{Successful FTP logins are also detected by Snort (however, this is not a thread and can be disabled by simply comment the rule that triggered the alert.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_4.png}
+    \captionof{figure}{Attempting to login as root.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_3.png}
+ \captionof{figure}{FTP root access is successfully detected.}
+\end{minipage}
+$\;$ \\ \\
+For the actual FTP server attacks, I used Metasploit's db\_autopwn command on port 21 on target host 192.168.1.16. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_6.png}
+ \captionof{figure}{The command to attack the FTP server as seen in Metasploit.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FTP_5.png}
+ \captionof{figure}{Snort reported the various attacks.}
+\end{minipage}
+
+\subsubsection{Preventing FTP server attacks}
+
+Some early versions of ProFTPd are vulnerable to command overflow attempts, so installing the latest software - and security updates of the installed FTP server is the first step in denying hackers taking over control of the system. One might also consider moving on onto more secure FTP servers such as \texttt{vsftpd}. While peforming the attack using Metasploit, the \texttt{vsftpd} server did not go offline, nor did the penetration attempts such as command overflow attempts succeeded.
+
+\subsubsection{SSH attacks}
+
+There was no need to simulate an SSH attack, as the next screen capture reveals: \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{SSH.png}
+ \captionof{figure}{Appearantly, someone tried to SSH scan my Xen server\ldots. This was fortunately detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+How can SSH attacks be prevented?
+\begin{itemize}
+\item Allow only one IP address to be connected to the SSH server.
+\item Run the SSH daemon on a non-standard port.
+\item Make use of \texttt{hosts.allow} and \texttt{hosts.deny} to allow only certain IP addresses to connect to the server via SSH.
+\end{itemize}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Hosts_Allow.png}
+ \captionof{figure}{An example of \texttt{hosts.allow}. In this example, only computer with IP address of 192.168.1.2 and 192.168.1.2 are allowed to connect to the server through SSH.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Hosts_Deny.png}
+ \captionof{figure}{An example of \texttt{hosts.deny}. This file is used in combination with \texttt{hosts.allow} and indicates that only IP addresses of 192.168.1.2 and 192.168.1.40 are allowed to connect to the server through SSH and that all other IP addresses have their access denied.}
+\end{minipage}
+\begin{itemize}
+\item Use \texttt{hashlimit} in \texttt{iptables} to, for example, allow only one SSH connection per IP address per minute.
+\end{itemize}
+
+\subsubsection{Database server attacks}
+
+A scan looking for MySQL databases on the network has been executed, as well as commands to show the available databases on the server and root login.
+
+For the database scan,  Metasploit has been used again. The IP address of the MySQL server is 192.168.1.23 and the MySQL database runs on a Xen VM called \texttt{mimas}. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{MySQL_3.png}
+ \captionof{figure}{Metasploit is scanning the network for databases...}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{MySQL_1.png}
+ \captionof{figure}{... and this is detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+Then I executed the ``show databases'' on the terminal of one of the Xen VM's. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{MySQL_2.png}
+ \captionof{figure}{This is captured by Snort.}
+\end{minipage}
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{MySQL_4.png}
+ \captionof{figure}{Also logging in a root is detected by Snort.}
+\end{minipage}
+
+\subsubsection{Trojan Infections}
+
+I created a Trojan Horse to test Snort against Trojan infections and to prove that the default settings of Windows Firewall are not secure enough. The Trojan is a program with a malicious payload that is created on my computer (the attacker), is transfered to the victim and executed by an ordinary user who thinks the program is harmless. \\ \\
+I misuse the fact that the default setting of Windows Firewall allows all outbound connections: I make use of reverse TCP, which means that the victim establishes the connection to the attacker, instead of the other way around (because incoming access is blocked by Windows Firewall). \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_1.png}
+ \captionof{figure}{The plugin to create the malicious payload.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_2.png}
+ \captionof{figure}{The actual creation of the malicious payload. The ``LHOST'' stands for Local HOST and indicates that the trojan makes a connection with my (attacking) computer via port 4444.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_3.png}
+ \captionof{figure}{Preparing the listener for when an unsuspicious user clicks on the file.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_4.png}
+ \captionof{figure}{A user clicks on the file and a connection between my computer and the victim is established.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_5.png}
+ \captionof{figure}{Now I can for example browse the hard disk drive of the victim's computer\ldots}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_7.png}
+ \captionof{figure}{\ldots or obtain some network information to prepare for subsequent attacks.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Trojan_6.png}
+ \captionof{figure}{Fortunately, this is detected by Snort.}
+\end{minipage}
+$\;$ \\ \\
+Creating this Trojan, I proved that it possible the get around the Windows Firewall and that also the outbound connections must be restricted.
+
+\subsubsection{DOS attacks}
+
+Using LOIC (Low Orbit Cannon), I performed a DOS attack on an FTP - and HTTP server. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS_2.png}
+ \captionof{figure}{The FTP server receives a lot of login attemps per second. This way, we hope to flood it and eventually make it go offline.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS.png}
+ \captionof{figure}{Snort reacts.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS_4.png}
+ \captionof{figure}{The DOS attack on the webserver in action\ldots}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS_3.png}
+ \captionof{figure}{Fortunately, this is detected by Snort.}
+\end{minipage}
+
+\subsubsection{Protecting against DOS attacks}
+
+It is very difficult to protect a network / computer against a DOS attack. A common way to execute a (D)DOS attack is called a SYN flood or half-open attack. To understand how a SYN flood attack can be prevented, one must first understand the basics of TCP handshaking. A TCP handshake is a method to create a TCP connection over an IP network such as the Internet. This consists of three major parts:
+\begin{enumerate}
+\item First, a SYN (synchronize) packet is sent from host A to host B.
+\item Host B returns a SYN-ACK (synchronize-acknowledgement) packet to host A.
+\item Host A sents an ACK (acknowledgement) packet to host B.
+\end{enumerate}
+When host B sents a SYN-ACK packet to host A, but has not yet received the ACK packet from host A, a half-open connection is established which can be abused. Hence the name ``half-open attack''. Host B has a list in its system memory describing the pending connections. This list is of finite size, so an overflow can be achieved by creating too many half-open connections, causing a memory overflow and disrupting the hosts's normal service. Also, when the memory is full, connections to legitimate hots cannot be established anymore and therefore deny service to them. \\
+Creating such half-open connections can be achieved using spoofed IP addresses. An attackers sents SYN messages to the victim, say host B. They appear to be legitimate (due to the fact that it's IP address has been spoofed), but they reference to a host (the attacker's host) that is unable to respond to the SYN-ACK packet. Therefore, the final ACK packet will never be sent to the victim server system. \\
+
+
+
+A SYN flood attack consists of 
+
+Eerst iets over SYN floods en daarna SYN cookies als manier om SYN floods te stoppen.
+
+\clearpage
+
+\subsubsection{Random stuff}
+
+In this section, some Snort activity that occured regardless of the testing purposes is reported. \\ \\
+
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Random_1.png}
+ \captionof{figure}{The apt updating process is seen as a thread by Snort.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Metasploit_1.png}
+ \captionof{figure}{Metasploit's updating process is known by Snort\ldots}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Exe.png}
+ \captionof{figure}{Downloading an .exe file from the Internet is also seen and reported by Snort.}
+\end{minipage}
+$\;$ \\ \\
+Having performed those tests, I have proven that Snort works perfectly on a mixed environment with physical Windows machines, Linux machines, a Xen virtual network and a Hyper-V virtual network.
+
+
+\section{Security of dual-boot systems}
+
+Nowadays, most `performance users' make use of a multiple-boot system to, for example, switch between a primary operating system and a secondary, less frequently used operating system.
+
+Multi-boot systems can also be used to test a particular OS, rather then make use of a host-based hypervisor, which does not have direct access to the hardware and is therefore slower. 
+
+Finally, in my case, a dual-boot system is used as fail-over mechanism. That is, if one OS is completely infected with virusses or Trojan Horses, or a configuration fault makes the OS unusable, or any other reason that makes the OS unusable, one can always boot in the second, clean OS and resume normal operations. \\ \\
+But what will happen if a cracker hacks such a dual-boot system? Will he be able to access the partition of the other OS as well? If so, will he be able to place a virus or a Trojan Horse on the compromised partition that is activated when the second OS is booted?
+
+\subsection{Second research question: hacking of dual-boot systems}
+
+The above quetions are the motivation for the second research question:\\
+\emph{\textbf{Is it possible to hack a the other OS in a dual-boot configuration, placing a virus or any other type of malware on it and executing this malware at system startup? Is it also possible to mount a .vhdx file and place a virus on it?}} And if so, \emph{\textbf{how can one prevent such malicious operations?}} \\ \\
+To answer these questions, a second physical server will be configured as a dual-boot system with a RAID 5 drive array consisting of three drives. Two partitions will be created on this RAID 5 array and each one of them will be formatted with the NTFS file system and house a Windows 7 Professional 64 bit installation on each of them. Thus effectively creating a dual-boot system with two Windows 7 operating systems. \\
+The figure below visualizes the modified network configuration.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Network_13.png}
+ \captionof{figure}{Network infrastructure as of the beginning of research question number two}
+\end{minipage}
+$\;$ \\ \\
+First of all, it appears that one can just mount a virtual hard disk with Windows Explorer, after which the disk partitions (including the ``System Reserved'' and the normal data partitions) appear in the Explorer window. Access is possible just by browsing the directories. We assume that a hacker has attacked the Hyper-V host and has root access to the system.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Mount_1_13.png}
+ \captionof{figure}{Mounting the virtual hard disk in Windows Server 2012 R2 using Windows Explorer \ldots}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Mount_2_13.png}
+ \captionof{figure}{\ldots after which the partitions become visible (browseable).}
+\end{minipage}
+$\;$ \\ \\
+However, I discovered that once the VM has been started again, no access to the hard drive in Windows Explorer is possible anymore. So I created a Trojan Horse on my computer that I inserted into the hard drive of the compromised VM and that automatically connects to the computer of the attacker (my computer) once the VM has booted without the user being aware of it, after which I can browse files, see the network configuration etc etc \ldots .\\
+This way, permanent access to the compromised VM is possible. \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Payload_1_13.png}
+ \captionof{figure}{Creation of the malicious Trojan.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Shares_1_13.png}
+ \captionof{figure}{Transferred the Trojan to the host by means of a shared folder.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Shell_1_13.png}
+ \captionof{figure}{Once the VM has started, it connects automatically to my computer and I can browse the files, even when the hard drive is in use and not mountable anymore in Windows Explorer.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Shell_2_13.png}
+ \captionof{figure}{An example of the directory listing of the compromised VM.}
+\end{minipage}
+$\;$ \\ \\
+I showed that it is possible to break into a virtual hard disk and insert some virusses or trojans to infect a virtual machine trough the host.
+
+\subsection*{Place a virus on the other dualboot system}
+
+Using ``Dualboot2'', I managed to place a Trojan on ``Dualboot1''. When ``Dualboot1'' was started again, the Trojan was started as well and connected to the attacker's computer (my computer) as shown in the figures. The two dualboot systems are both Windows 7 Professional x64 editions. This is just an example, any other virus could be used. It is just to show that this is indeed possible.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Hack_3_13.png}
+ \captionof{figure}{The two disks of the two OS's visible in Windows Explorer.}
+\end{minipage}
+$\;$ \\ \\
+The Trojan is placed in the Startup folder and will be executed when the OS boots. \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Hack_1_13.png}
+ \captionof{figure}{The trojan is inserted in the other OS of the dualboot system.}
+\end{minipage}
+$\;$ \\ \\
+With the Trojan connected to our computer, we can now browse files, etc etc \ldots . \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Hack_2_13.png}
+ \captionof{figure}{The Trojan has connected to our computer.}
+\end{minipage}
+$\;$ \\ \\
+Not only is it possible to retrieve the directory listings and browse files stored on the hard disk, but one can also perform a DOS on the compromised host. To accomplish this, I make use of a known vulnerability in the Windows 7 operating system, called MS12-020. This means that this vulnerability allows a cracker to execute remote code.
+
+In this example, a DOS will be executed. This is how it works: if the way the \texttt{ConnectMCSPDU} packet is handled is in the \texttt{maxChannelIDs} field, is altered,  an invalid pointer will be used and thus resulting in a DOS condition.
+
+To insert this remote malicious code, I make use of Metasploit.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS_2_13.png}
+ \captionof{figure}{The parameters are set up correctly and the module is runned\ldots}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DOS_1_13.png}
+ \captionof{figure}{\ldots resulting in a BSOD.}
+\end{minipage}
+$\;$ \\ \\
+Solutions to prevent this include
+\begin{itemize}
+\item Disable Remote Desktop Connection if not needed.
+\item Change the default port value of 3389.
+\item Use Network Level Authentication (NLA).
+\item Apply the latest patches.
+\end{itemize}
+
+\subsection{Preventing access to a (virtual) hard disk}
+
+First of all, when a virtual hard disk is in use, that is, when the VM is already started, it is impossible to mount it. Thus the disk gets locked automatically when the VM is started. \\
+However, by default, when the VM is not started, it is possible to mount the disk and steal the files on it, as I showed in the previous SITREP. \\ \\
+The solution to this is (in my opinion), not to lock but to encrypt the disk using BitLocker. This tool is buillt-in by default in WS2012 R2 (but not enabled by default of course). \\
+BitLocker encrypts the hard drive and makes it password-protected so that when an attacker wants to retrieve the data from the disk, (wants to mount it), he first needs to type in a password. When AES 256 bit encryption is used, the process of cracking the password becomes extremely difficult. \\
+Also, when the disk is transfered to another Hyper-V server, it is still impossible to mount the disk without knowing the password. Obviously, another password than the Administrator password must be used - since the hacker already knows the (compromised) password of the system. \\ \\
+For this purpose, I will demonstrate this using a Windows Server 2012 R2 VM, since BitLocker is only available on the Enterprise or Ultimate versions of Windows 7 and I only have a Professional version of Windows 7 available. \\ \\
+First, I have enabled the BitLocker feature and configured it to use 256 bit encryption using group policy. \\ \\
+NOG EXTRA UITLEG OVER BITLOCKER NEEDED! : WHAT IS IT? POSSIBILITIES ETC ETC.
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{BitLocker_1.png}
+ \captionof{figure}{The BitLocker settings in the group policy of Windows Server 2012 R2.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_2.png}
+ \captionof{figure}{A 256 bit encryption is chosen for maximum protection.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_4.png}
+ \captionof{figure}{Also non-system drives can be secured.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_5.png}
+ \captionof{figure}{This setting forces the requirement of entering a password when the VM is started.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_6.png}
+ \captionof{figure}{When the settings are set, the VM is rebooted and ``BitLocker drive encryption'' is selected in the Configuration Panel. Since we want to encrypt the entire VM (and therefore preventing the disk from mounting), the ``C:'' drive is selected.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_7.png}
+ \captionof{figure}{When the encryption of the system drive has finished, the VM is rebooted and a password is prompted when one wants to boot the VM.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{BitLocker_8.png}
+ \captionof{figure}{Without knowing the password, it is impossible to login\ldots . Of course, this prompting for a password at boot time can be disabled in the Group Policy Editor.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.85\textwidth]{BitLocker_9.png}
+ \captionof{figure}{Now we try to mount the virtual hard drive, but a password is required to do so.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{BitLocker_10.png}
+ \captionof{figure}{Only when the correct password is supplied, one is able to access the files on the virtual disk.}
+\end{minipage}
+$\;$ \\ \\
+Not only does the encryption with BitLocker ensures full disk encryption of local disks and virtual disks (.vhdx files), but when transferring such virtual drive to another computer, one is able to use (i.e.: unlock) the drive on the destination computer. Thus providing an extra layer of security when transferring the drive over the network as a possible cracker that is eavesdropping the network connection will not be able to read the content of it.
+
+\subsection{Downsides of using BitLocker}
+
+In the previous section, an effective way of protecting a hard drive from unwanted access has been shown. However, with an added layer of security (i.e.: encrypion), performance may be affected in a negative way. After all, when the data is written to or read from the disk, an AES encryption algorithm must be applied and thus slowing down the whole read and write process. \\
+To prove so, some benchmarking has been performed. NOG UITLEGGEN WHAT CRYSTAL DISK MARK IS!!
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{Pre_BitLocker_1.png}
+ \captionof{figure}{Read - and write speeds according to ``CrystalDiskMark'' before the drive has been encrypted by BitLocker. Note that I use an actual system (virtual) disk.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Pre_BitLocker_3.png}
+ \captionof{figure}{Here I use HDTune Pro to perform the benchmarking.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics{Post_BitLocker_1.png}
+ \captionof{figure}{These are the results after the system drive has been encrypted using BitLocker. The sequential read speed drops from 117 MB/s to 88 MB/s and the sequential write speed drops from 34 MB/s to 30 MB/s.}
+\end{minipage}
+$\;$ \\ \\
+\noindent\begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Post_BitLocker_2.png}
+ \captionof{figure}{Also HDTune confirms the speed drop: from 100 MB/s on average to 91 MB/s on average.}
+\end{minipage}
+$\;$ \\ \\
+Let us summarize the performance differences:
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+       & Before & After & Difference in \% \\ \hline
+Read 1 & 117    & 88    & 24 \% slower     \\ \hline
+Read 2 & 100    & 92    &   8 \% slower               \\ \hline
+Write  & 34     & 30    &   12 \% slower               \\ \hline
+\end{tabular}
+\end{table}
+$\;$ \\ \\
+So in conclusion, if we take the average of the two reading speed differences, we can state that the reading speed is 16\% slower and the writing speed is 12\% slower. \\ \\
+Note that the disk access time \textbf{remains the same} according to HDTune. The question now is: do we choose for performance but less security, or do we choose for security with a performance decrease of approximately 15\%?

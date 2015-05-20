@@ -26,12 +26,37 @@
 \BOOKMARK [1][-]{section.2.3}{Storage virtualization}{chapter.2}% 26
 \BOOKMARK [2][-]{subsection.2.3.1}{Host-based storage virtualization}{section.2.3}% 27
 \BOOKMARK [2][-]{subsection.2.3.2}{Virtual hard disks in Hyper-V}{section.2.3}% 28
-\BOOKMARK [0][-]{chapter.3}{Security}{}% 29
+\BOOKMARK [0][-]{chapter.3}{Security aspects}{}% 29
 \BOOKMARK [1][-]{section.3.1}{Known non-network related security issues}{chapter.3}% 30
 \BOOKMARK [2][-]{subsection.3.1.1}{Virusses and malware problems}{section.3.1}% 31
 \BOOKMARK [1][-]{section.3.2}{Known network related security issues}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.3}{Possible solutions}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.4}{Unknown security issues}{chapter.3}% 34
-\BOOKMARK [0][-]{chapter.4}{Conclusions and recommendations}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Test lab}{}% 36
-\BOOKMARK [0][-]{appendix*.22}{Bibliography}{}% 37
+\BOOKMARK [1][-]{section.3.4}{Sniffing on virtual networks}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.4.1}{First research question: sniffing a virtual NIC}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.2}{Penetration testing on virtual networks}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.3}{Actual penetration testing}{section.3.4}% 37
+\BOOKMARK [1][-]{section.3.5}{Security of dual-boot systems}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.5.1}{Second research question: hacking of dual-boot systems}{section.3.5}% 39
+\BOOKMARK [2][-]{subsection.3.5.2}{Preventing access to a \(virtual\) hard disk}{section.3.5}% 40
+\BOOKMARK [2][-]{subsection.3.5.3}{Downsides of using BitLocker}{section.3.5}% 41
+\BOOKMARK [0][-]{chapter.4}{Installation of a private cloud}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Installation of Microsoft System Center 2012 R2 Virtual Machine Manager}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.1.1}{Installation requirements}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.2}{Generatl installation overview}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.3}{Pre-installation configuration}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.4}{Installation of MSSQL Server 2012 SP2}{section.4.1}% 47
+\BOOKMARK [2][-]{subsection.4.1.5}{Configuring Distributed Key Management in Active Directory}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.6}{Post configuration of MSSQL Server}{section.4.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.7}{Installation of VMM}{section.4.1}% 50
+\BOOKMARK [1][-]{section.4.2}{Installation of Windows Azure Pack}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.2.1}{Prerequisites}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.2}{Post Installation of Service Provider Foundation}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.3}{Installation of the Windows Azure Pack}{section.4.2}% 54
+\BOOKMARK [0][-]{chapter.5}{Conclusions and recommendations}{}% 55
+\BOOKMARK [0][-]{appendix.A}{Test lab}{}% 56
+\BOOKMARK [1][-]{section.A.1}{General description}{appendix.A}% 57
+\BOOKMARK [1][-]{section.A.2}{Technical description}{appendix.A}% 58
+\BOOKMARK [2][-]{subsection.A.2.1}{Hardware overview}{section.A.2}% 59
+\BOOKMARK [2][-]{subsection.A.2.2}{Networking overview}{section.A.2}% 60
+\BOOKMARK [1][-]{section.A.3}{Visualization of the test lab}{appendix.A}% 61
+\BOOKMARK [0][-]{appendix*.24}{Bibliography}{}% 62
